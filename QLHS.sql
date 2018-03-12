@@ -1,0 +1,48 @@
+CREATE TABLE Lop
+(
+	MaLop INT PRIMARY KEY,
+	TenLop NVARCHAR(100),
+	SiSo INT,
+
+)
+GO 
+CREATE TABLE HocSinh
+(
+	MaHS INT PRIMARY KEY,
+	HoTen NVARCHAR(100),
+	GioiTinh NVARCHAR(100),
+	NgSinh DATE,
+	Email NVARCHAR(100),
+	DiaChi NVARCHAR(100),
+	MaLop int
+
+	FOREIGN KEY (MaLop) REFERENCES Lop(MaLop)
+)
+GO
+CREATE TABLE MonHoc
+(
+	MaMH INT PRIMARY KEY,
+	TenMon NVARCHAR(100),
+	MaHS int
+
+	FOREIGN KEY (MaHS) REFERENCES dbo.HocSinh(MaHS)
+)
+GO
+CREATE TABLE LoaiDiem
+(
+	MaLoaiDiem INT PRIMARY KEY,
+	TenLoaiDiem NVARCHAR(100),
+	PhanTram FLOAT
+)
+CREATE TABLE BangDiem
+(
+	id INT PRIMARY KEY,
+	MaMon INT,
+	MaHS INT,
+	Diem FLOAT,
+	MaLoaiDiem INT
+	FOREIGN KEY(MaMon) REFERENCES dbo.MonHoc(MaMH),
+	FOREIGN KEY(MaHS) REFERENCES dbo.HocSinh(MaHS),
+	FOREIGN KEY(MaLoaiDiem) REFERENCES dbo.LoaiDiem(MaLoaiDiem)
+)
+GO 
