@@ -22,12 +22,12 @@ namespace QLHS
             BonusSkins.Register();
             SkinManager.EnableFormSkins();
             UserLookAndFeel.Default.SetSkinStyle("DevExpress Style");
-            //Application.Run(new frmLogin());
-            frmLogin rad = new frmLogin();
+            Application.Run(new frmHocsinh());
+            /*frmLogin rad = new frmLogin();
             {
                 if(rad.ShowDialog() == DialogResult.OK)
                     Application.Run(new frmMain());
-            }
+            }*/
         }
     }
 }

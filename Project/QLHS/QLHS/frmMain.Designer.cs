@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             DevExpress.XtraBars.PopupMenu popupMenuHome;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.btnQLND = new DevExpress.XtraBars.BarButtonItem();
             this.btnDoimatkhau = new DevExpress.XtraBars.BarButtonItem();
             this.btnSaoluudulieu = new DevExpress.XtraBars.BarButtonItem();
@@ -38,7 +38,6 @@
             this.btnDangxuat = new DevExpress.XtraBars.BarButtonItem();
             this.btnThoat = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
-            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             this.imgCL1 = new DevExpress.Utils.ImageCollection(this.components);
             this.btnLophoc = new DevExpress.XtraBars.BarButtonItem();
             this.btnKhoilop = new DevExpress.XtraBars.BarButtonItem();
@@ -68,6 +67,7 @@
             this.btnQDsiso = new DevExpress.XtraBars.BarButtonItem();
             this.btnQDthangdiem = new DevExpress.XtraBars.BarButtonItem();
             this.btnThongtintruonghoc = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -87,11 +87,24 @@
             this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
             this.applicationMenu1 = new DevExpress.XtraBars.Ribbon.ApplicationMenu(this.components);
             popupMenuHome = new DevExpress.XtraBars.PopupMenu(this.components);
+            ((System.ComponentModel.ISupportInitialize)(popupMenuHome)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgCL1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(popupMenuHome)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.applicationMenu1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // popupMenuHome
+            // 
+            popupMenuHome.ItemLinks.Add(this.btnQLND);
+            popupMenuHome.ItemLinks.Add(this.btnDoimatkhau);
+            popupMenuHome.ItemLinks.Add(this.btnSaoluudulieu);
+            popupMenuHome.ItemLinks.Add(this.btnPhuchoidulieu);
+            popupMenuHome.ItemLinks.Add(this.btnDangxuat);
+            popupMenuHome.ItemLinks.Add(this.btnThoat);
+            popupMenuHome.Name = "popupMenuHome";
+            popupMenuHome.OptionsMultiColumn.ImageHorizontalAlignment = DevExpress.Utils.Drawing.ItemHorizontalAlignment.Left;
+            popupMenuHome.OptionsMultiColumn.LargeImages = DevExpress.Utils.DefaultBoolean.True;
+            popupMenuHome.Ribbon = this.ribbonControl1;
             // 
             // btnQLND
             // 
@@ -100,6 +113,7 @@
             this.btnQLND.ImageOptions.ImageIndex = 46;
             this.btnQLND.ImageOptions.LargeImage = global::QLHS.Properties.Resources.User;
             this.btnQLND.Name = "btnQLND";
+            this.btnQLND.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnQLND_ItemClick);
             // 
             // btnDoimatkhau
             // 
@@ -189,7 +203,7 @@
             this.barButtonItem1});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.ribbonControl1.MaxItemId = 52;
+            this.ribbonControl1.MaxItemId = 53;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1,
@@ -203,12 +217,6 @@
             this.ribbonControl1.Size = new System.Drawing.Size(907, 179);
             this.ribbonControl1.Toolbar.ShowCustomizeItem = false;
             this.ribbonControl1.Click += new System.EventHandler(this.ribbonControl1_Click);
-            // 
-            // barButtonItem1
-            // 
-            this.barButtonItem1.Caption = "barButtonItem1";
-            this.barButtonItem1.Id = 43;
-            this.barButtonItem1.Name = "barButtonItem1";
             // 
             // imgCL1
             // 
@@ -508,6 +516,13 @@
             this.btnThongtintruonghoc.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
             | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
             // 
+            // barButtonItem1
+            // 
+            this.barButtonItem1.Caption = "barButtonItem1";
+            this.barButtonItem1.Id = 43;
+            this.barButtonItem1.Name = "barButtonItem1";
+            this.barButtonItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem1_ItemClick);
+            // 
             // ribbonPage1
             // 
             this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -646,19 +661,6 @@
             // 
             this.defaultLookAndFeel1.LookAndFeel.SkinName = "Liquid Sky";
             // 
-            // popupMenuHome
-            // 
-            popupMenuHome.ItemLinks.Add(this.btnQLND);
-            popupMenuHome.ItemLinks.Add(this.btnDoimatkhau);
-            popupMenuHome.ItemLinks.Add(this.btnSaoluudulieu);
-            popupMenuHome.ItemLinks.Add(this.btnPhuchoidulieu);
-            popupMenuHome.ItemLinks.Add(this.btnDangxuat);
-            popupMenuHome.ItemLinks.Add(this.btnThoat);
-            popupMenuHome.Name = "popupMenuHome";
-            popupMenuHome.OptionsMultiColumn.ImageHorizontalAlignment = DevExpress.Utils.Drawing.ItemHorizontalAlignment.Left;
-            popupMenuHome.OptionsMultiColumn.LargeImages = DevExpress.Utils.DefaultBoolean.True;
-            popupMenuHome.Ribbon = this.ribbonControl1;
-            // 
             // applicationMenu1
             // 
             this.applicationMenu1.ItemLinks.Add(this.barButtonItem1);
@@ -681,9 +683,9 @@
             this.ShowMdiChildCaptionInParentTitle = true;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "QUẢN LÝ HỌC SINH";
+            ((System.ComponentModel.ISupportInitialize)(popupMenuHome)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgCL1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(popupMenuHome)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.applicationMenu1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
