@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmKetqua));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dGVketqua = new System.Windows.Forms.DataGridView();
+            this.dGVKetqua = new System.Windows.Forms.DataGridView();
             this.colMaketqua = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colTenketqua = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
@@ -48,14 +48,14 @@
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.btnExit = new System.Windows.Forms.ToolStripButton();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dGVketqua)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dGVKetqua)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
             this.bindingNavigator1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.dGVketqua);
+            this.groupBox1.Controls.Add(this.dGVKetqua);
             this.groupBox1.Controls.Add(this.bindingNavigator1);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
@@ -65,19 +65,19 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Danh sách kết quả";
             // 
-            // dGVketqua
+            // dGVKetqua
             // 
-            this.dGVketqua.AllowUserToAddRows = false;
-            this.dGVketqua.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dGVketqua.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dGVKetqua.AllowUserToAddRows = false;
+            this.dGVKetqua.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dGVKetqua.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colMaketqua,
             this.colTenketqua});
-            this.dGVketqua.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dGVketqua.Location = new System.Drawing.Point(3, 45);
-            this.dGVketqua.Name = "dGVketqua";
-            this.dGVketqua.RowTemplate.Height = 24;
-            this.dGVketqua.Size = new System.Drawing.Size(794, 402);
-            this.dGVketqua.TabIndex = 1;
+            this.dGVKetqua.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dGVKetqua.Location = new System.Drawing.Point(3, 45);
+            this.dGVKetqua.Name = "dGVKetqua";
+            this.dGVKetqua.RowTemplate.Height = 24;
+            this.dGVKetqua.Size = new System.Drawing.Size(794, 402);
+            this.dGVKetqua.TabIndex = 1;
             // 
             // colMaketqua
             // 
@@ -201,7 +201,7 @@
             this.Text = "Kết quả";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dGVketqua)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dGVKetqua)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).EndInit();
             this.bindingNavigator1.ResumeLayout(false);
             this.bindingNavigator1.PerformLayout();
@@ -218,7 +218,7 @@
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator1;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
-        private System.Windows.Forms.DataGridView dGVketqua;
+        private System.Windows.Forms.DataGridView dGVKetqua;
         private System.Windows.Forms.DataGridViewTextBoxColumn colMaketqua;
         private System.Windows.Forms.DataGridViewTextBoxColumn colTenketqua;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;

@@ -42,7 +42,7 @@
             this.btnAdd = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.btnDaelete = new System.Windows.Forms.ToolStripButton();
+            this.btnDelete = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.btnSave = new System.Windows.Forms.ToolStripButton();
@@ -115,7 +115,7 @@
             this.btnAdd,
             this.bindingNavigatorSeparator2,
             this.toolStripSeparator2,
-            this.btnDaelete,
+            this.btnDelete,
             this.toolStripSeparator1,
             this.toolStripSeparator3,
             this.btnSave,
@@ -161,13 +161,13 @@
             this.toolStripSeparator2.Name = "toolStripSeparator2";
             this.toolStripSeparator2.Size = new System.Drawing.Size(6, 27);
             // 
-            // btnDaelete
+            // btnDelete
             // 
-            this.btnDaelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDaelete.Image")));
-            this.btnDaelete.Name = "btnDaelete";
-            this.btnDaelete.RightToLeftAutoMirrorImage = true;
-            this.btnDaelete.Size = new System.Drawing.Size(77, 24);
-            this.btnDaelete.Text = "Delete";
+            this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.RightToLeftAutoMirrorImage = true;
+            this.btnDelete.Size = new System.Drawing.Size(77, 24);
+            this.btnDelete.Text = "Delete";
             // 
             // toolStripSeparator1
             // 
@@ -228,7 +228,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.BindingNavigator bindingNavigator1;
         private System.Windows.Forms.ToolStripButton btnAdd;
-        private System.Windows.Forms.ToolStripButton btnDaelete;
+        private System.Windows.Forms.ToolStripButton btnDelete;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator1;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;

@@ -32,19 +32,20 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmNhapdiemchung));
             this.navigationPane1 = new DevExpress.XtraBars.Navigation.NavigationPane();
             this.navigationPage1 = new DevExpress.XtraBars.Navigation.NavigationPage();
-            this.btnHienthidanhsach1 = new System.Windows.Forms.Button();
+            this.btnHiemthidanhsach1 = new System.Windows.Forms.Button();
             this.lblLop1 = new System.Windows.Forms.Label();
             this.lblMonhoc1 = new System.Windows.Forms.Label();
             this.lblHocky1 = new System.Windows.Forms.Label();
             this.lblNamhoc1 = new System.Windows.Forms.Label();
-            this.cmbMonhoc1 = new System.Windows.Forms.ComboBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.cmbHocky1 = new System.Windows.Forms.ComboBox();
             this.cmbLop1 = new System.Windows.Forms.ComboBox();
             this.cmbNamhoc1 = new System.Windows.Forms.ComboBox();
             this.navigationPage2 = new DevExpress.XtraBars.Navigation.NavigationPage();
+            this.lblLop2 = new System.Windows.Forms.Label();
             this.btnHienthidanhsach2 = new System.Windows.Forms.Button();
             this.lblMonhoc2 = new System.Windows.Forms.Label();
-            this.lblHocky = new System.Windows.Forms.Label();
+            this.lblHocky2 = new System.Windows.Forms.Label();
             this.lblNamhoc2 = new System.Windows.Forms.Label();
             this.cmbMonhoc2 = new System.Windows.Forms.ComboBox();
             this.cmbHocky2 = new System.Windows.Forms.ComboBox();
@@ -68,7 +69,6 @@
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.btnExit = new System.Windows.Forms.ToolStripButton();
-            this.lblLop2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).BeginInit();
             this.navigationPane1.SuspendLayout();
             this.navigationPage1.SuspendLayout();
@@ -97,26 +97,26 @@
             // navigationPage1
             // 
             this.navigationPage1.Caption = "Nhập điểm";
-            this.navigationPage1.Controls.Add(this.btnHienthidanhsach1);
+            this.navigationPage1.Controls.Add(this.btnHiemthidanhsach1);
             this.navigationPage1.Controls.Add(this.lblLop1);
             this.navigationPage1.Controls.Add(this.lblMonhoc1);
             this.navigationPage1.Controls.Add(this.lblHocky1);
             this.navigationPage1.Controls.Add(this.lblNamhoc1);
-            this.navigationPage1.Controls.Add(this.cmbMonhoc1);
+            this.navigationPage1.Controls.Add(this.comboBox4);
             this.navigationPage1.Controls.Add(this.cmbHocky1);
             this.navigationPage1.Controls.Add(this.cmbLop1);
             this.navigationPage1.Controls.Add(this.cmbNamhoc1);
             this.navigationPage1.Name = "navigationPage1";
             this.navigationPage1.Size = new System.Drawing.Size(175, 352);
             // 
-            // btnHienthidanhsach1
+            // btnHiemthidanhsach1
             // 
-            this.btnHienthidanhsach1.Location = new System.Drawing.Point(17, 288);
-            this.btnHienthidanhsach1.Name = "btnHienthidanhsach1";
-            this.btnHienthidanhsach1.Size = new System.Drawing.Size(116, 44);
-            this.btnHienthidanhsach1.TabIndex = 2;
-            this.btnHienthidanhsach1.Text = "Hiển thị danh sách";
-            this.btnHienthidanhsach1.UseVisualStyleBackColor = true;
+            this.btnHiemthidanhsach1.Location = new System.Drawing.Point(17, 288);
+            this.btnHiemthidanhsach1.Name = "btnHiemthidanhsach1";
+            this.btnHiemthidanhsach1.Size = new System.Drawing.Size(116, 44);
+            this.btnHiemthidanhsach1.TabIndex = 2;
+            this.btnHiemthidanhsach1.Text = "Hiển thị danh sách";
+            this.btnHiemthidanhsach1.UseVisualStyleBackColor = true;
             // 
             // lblLop1
             // 
@@ -154,13 +154,13 @@
             this.lblNamhoc1.TabIndex = 1;
             this.lblNamhoc1.Text = "Năm học";
             // 
-            // cmbMonhoc1
+            // comboBox4
             // 
-            this.cmbMonhoc1.FormattingEnabled = true;
-            this.cmbMonhoc1.Location = new System.Drawing.Point(4, 237);
-            this.cmbMonhoc1.Name = "cmbMonhoc1";
-            this.cmbMonhoc1.Size = new System.Drawing.Size(121, 24);
-            this.cmbMonhoc1.TabIndex = 0;
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(4, 237);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(121, 24);
+            this.comboBox4.TabIndex = 0;
             // 
             // cmbHocky1
             // 
@@ -192,7 +192,7 @@
             this.navigationPage2.Controls.Add(this.lblLop2);
             this.navigationPage2.Controls.Add(this.btnHienthidanhsach2);
             this.navigationPage2.Controls.Add(this.lblMonhoc2);
-            this.navigationPage2.Controls.Add(this.lblHocky);
+            this.navigationPage2.Controls.Add(this.lblHocky2);
             this.navigationPage2.Controls.Add(this.lblNamhoc2);
             this.navigationPage2.Controls.Add(this.cmbMonhoc2);
             this.navigationPage2.Controls.Add(this.cmbHocky2);
@@ -200,6 +200,15 @@
             this.navigationPage2.Controls.Add(this.cmbNamhoc2);
             this.navigationPage2.Name = "navigationPage2";
             this.navigationPage2.Size = new System.Drawing.Size(175, 352);
+            // 
+            // lblLop2
+            // 
+            this.lblLop2.AutoSize = true;
+            this.lblLop2.Location = new System.Drawing.Point(23, 83);
+            this.lblLop2.Name = "lblLop2";
+            this.lblLop2.Size = new System.Drawing.Size(32, 17);
+            this.lblLop2.TabIndex = 11;
+            this.lblLop2.Text = "Lớp";
             // 
             // btnHienthidanhsach2
             // 
@@ -219,14 +228,14 @@
             this.lblMonhoc2.TabIndex = 7;
             this.lblMonhoc2.Text = "Môn học";
             // 
-            // lblHocky
+            // lblHocky2
             // 
-            this.lblHocky.AutoSize = true;
-            this.lblHocky.Location = new System.Drawing.Point(23, 154);
-            this.lblHocky.Name = "lblHocky";
-            this.lblHocky.Size = new System.Drawing.Size(51, 17);
-            this.lblHocky.TabIndex = 8;
-            this.lblHocky.Text = "Học kỳ";
+            this.lblHocky2.AutoSize = true;
+            this.lblHocky2.Location = new System.Drawing.Point(23, 154);
+            this.lblHocky2.Name = "lblHocky2";
+            this.lblHocky2.Size = new System.Drawing.Size(51, 17);
+            this.lblHocky2.TabIndex = 8;
+            this.lblHocky2.Text = "Học kỳ";
             // 
             // lblNamhoc2
             // 
@@ -409,15 +418,6 @@
             this.btnExit.Size = new System.Drawing.Size(57, 24);
             this.btnExit.Text = "Exit";
             // 
-            // lblLop2
-            // 
-            this.lblLop2.AutoSize = true;
-            this.lblLop2.Location = new System.Drawing.Point(23, 83);
-            this.lblLop2.Name = "lblLop2";
-            this.lblLop2.Size = new System.Drawing.Size(32, 17);
-            this.lblLop2.TabIndex = 11;
-            this.lblLop2.Text = "Lớp";
-            // 
             // frmNhapdiemchung
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -448,18 +448,18 @@
         private DevExpress.XtraBars.Navigation.NavigationPane navigationPane1;
         private DevExpress.XtraBars.Navigation.NavigationPage navigationPage1;
         private DevExpress.XtraBars.Navigation.NavigationPage navigationPage2;
-        private System.Windows.Forms.Button btnHienthidanhsach1;
+        private System.Windows.Forms.Button btnHiemthidanhsach1;
         private System.Windows.Forms.Label lblLop1;
         private System.Windows.Forms.Label lblMonhoc1;
         private System.Windows.Forms.Label lblHocky1;
         private System.Windows.Forms.Label lblNamhoc1;
-        private System.Windows.Forms.ComboBox cmbMonhoc1;
+        private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.ComboBox cmbHocky1;
         private System.Windows.Forms.ComboBox cmbLop1;
         private System.Windows.Forms.ComboBox cmbNamhoc1;
         private System.Windows.Forms.Button btnHienthidanhsach2;
         private System.Windows.Forms.Label lblMonhoc2;
-        private System.Windows.Forms.Label lblHocky;
+        private System.Windows.Forms.Label lblHocky2;
         private System.Windows.Forms.Label lblNamhoc2;
         private System.Windows.Forms.ComboBox cmbMonhoc2;
         private System.Windows.Forms.ComboBox cmbHocky2;

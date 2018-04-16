@@ -31,10 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDiem));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dGVLoaidiem = new System.Windows.Forms.DataGridView();
-            this.colMaloaidiem = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colTenloaidiem = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colHeso = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dGVDiem = new System.Windows.Forms.DataGridView();
             this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
@@ -48,15 +45,18 @@
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.btnExit = new System.Windows.Forms.ToolStripButton();
+            this.colMaloaidiem = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTenloaidiem = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colHeso = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dGVLoaidiem)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dGVDiem)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
             this.bindingNavigator1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.dGVLoaidiem);
+            this.groupBox1.Controls.Add(this.dGVDiem);
             this.groupBox1.Controls.Add(this.bindingNavigator1);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
@@ -66,35 +66,20 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Danh sách loại điểm";
             // 
-            // dGVLoaidiem
+            // dGVDiem
             // 
-            this.dGVLoaidiem.AllowUserToAddRows = false;
-            this.dGVLoaidiem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dGVLoaidiem.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dGVDiem.AllowUserToAddRows = false;
+            this.dGVDiem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dGVDiem.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colMaloaidiem,
             this.colTenloaidiem,
             this.colHeso});
-            this.dGVLoaidiem.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dGVLoaidiem.Location = new System.Drawing.Point(3, 45);
-            this.dGVLoaidiem.Name = "dGVLoaidiem";
-            this.dGVLoaidiem.RowTemplate.Height = 24;
-            this.dGVLoaidiem.Size = new System.Drawing.Size(794, 402);
-            this.dGVLoaidiem.TabIndex = 1;
-            // 
-            // colMaloaidiem
-            // 
-            this.colMaloaidiem.HeaderText = "Mã loại điểm";
-            this.colMaloaidiem.Name = "colMaloaidiem";
-            // 
-            // colTenloaidiem
-            // 
-            this.colTenloaidiem.HeaderText = "Tên loại điểm";
-            this.colTenloaidiem.Name = "colTenloaidiem";
-            // 
-            // colHeso
-            // 
-            this.colHeso.HeaderText = "Hệ số";
-            this.colHeso.Name = "colHeso";
+            this.dGVDiem.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dGVDiem.Location = new System.Drawing.Point(3, 45);
+            this.dGVDiem.Name = "dGVDiem";
+            this.dGVDiem.RowTemplate.Height = 24;
+            this.dGVDiem.Size = new System.Drawing.Size(794, 402);
+            this.dGVDiem.TabIndex = 1;
             // 
             // bindingNavigator1
             // 
@@ -143,7 +128,6 @@
             this.btnAdd.RightToLeftAutoMirrorImage = true;
             this.btnAdd.Size = new System.Drawing.Size(92, 24);
             this.btnAdd.Text = "Add new";
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // bindingNavigatorSeparator1
             // 
@@ -199,6 +183,21 @@
             this.btnExit.Size = new System.Drawing.Size(57, 24);
             this.btnExit.Text = "Exit";
             // 
+            // colMaloaidiem
+            // 
+            this.colMaloaidiem.HeaderText = "Mã loại điểm";
+            this.colMaloaidiem.Name = "colMaloaidiem";
+            // 
+            // colTenloaidiem
+            // 
+            this.colTenloaidiem.HeaderText = "Tên loại điểm";
+            this.colTenloaidiem.Name = "colTenloaidiem";
+            // 
+            // colHeso
+            // 
+            this.colHeso.HeaderText = "Hệ số";
+            this.colHeso.Name = "colHeso";
+            // 
             // frmDiem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -209,7 +208,7 @@
             this.Text = "Loại điểm";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dGVLoaidiem)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dGVDiem)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).EndInit();
             this.bindingNavigator1.ResumeLayout(false);
             this.bindingNavigator1.PerformLayout();
@@ -226,7 +225,7 @@
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator1;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
-        private System.Windows.Forms.DataGridView dGVLoaidiem;
+        private System.Windows.Forms.DataGridView dGVDiem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;

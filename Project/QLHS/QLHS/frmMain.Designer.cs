@@ -214,7 +214,7 @@
             this.ribbonControl1.SetPopupContextMenu(this.ribbonControl1, popupMenuHome);
             this.ribbonControl1.PopupShowMode = DevExpress.XtraBars.PopupShowMode.Inplace;
             this.ribbonControl1.ShowToolbarCustomizeItem = false;
-            this.ribbonControl1.Size = new System.Drawing.Size(907, 179);
+            this.ribbonControl1.Size = new System.Drawing.Size(907, 142);
             this.ribbonControl1.Toolbar.ShowCustomizeItem = false;
             this.ribbonControl1.Click += new System.EventHandler(this.ribbonControl1_Click);
             // 
@@ -277,6 +277,7 @@
             this.btnLophoc.Name = "btnLophoc";
             this.btnLophoc.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
             | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
+            this.btnLophoc.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnLophoc_ItemClick);
             // 
             // btnKhoilop
             // 
@@ -672,7 +673,7 @@
             this.Appearance.BackColor = System.Drawing.Color.Teal;
             this.Appearance.Options.UseBackColor = true;
             this.Appearance.Options.UseFont = true;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(907, 580);
             this.Controls.Add(this.ribbonControl1);

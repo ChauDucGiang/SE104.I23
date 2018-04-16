@@ -76,7 +76,7 @@
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1049, 558);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(699, 558);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // flowLayoutPanel2
@@ -85,7 +85,7 @@
             this.flowLayoutPanel2.Controls.Add(this.lvLopcu);
             this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 3);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(473, 543);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(286, 543);
             this.flowLayoutPanel2.TabIndex = 6;
             // 
             // groupControl1
@@ -98,7 +98,7 @@
             this.groupControl1.Controls.Add(this.cmbNamhoccu);
             this.groupControl1.Location = new System.Drawing.Point(3, 3);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(470, 153);
+            this.groupControl1.Size = new System.Drawing.Size(278, 153);
             this.groupControl1.TabIndex = 0;
             this.groupControl1.Text = "Thông tin lớp cũ";
             // 
@@ -160,7 +160,7 @@
             this.colTenhocsinhcu});
             this.lvLopcu.Location = new System.Drawing.Point(3, 162);
             this.lvLopcu.Name = "lvLopcu";
-            this.lvLopcu.Size = new System.Drawing.Size(470, 379);
+            this.lvLopcu.Size = new System.Drawing.Size(278, 379);
             this.lvLopcu.TabIndex = 1;
             this.lvLopcu.UseCompatibleStateImageBehavior = false;
             this.lvLopcu.View = System.Windows.Forms.View.Details;
@@ -182,7 +182,7 @@
             this.panelControl1.Controls.Add(this.btnLuu);
             this.panelControl1.Controls.Add(this.btnXoa);
             this.panelControl1.Controls.Add(this.btnChuyentungnguoimot);
-            this.panelControl1.Location = new System.Drawing.Point(482, 3);
+            this.panelControl1.Location = new System.Drawing.Point(295, 3);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(105, 543);
             this.panelControl1.TabIndex = 4;
@@ -236,9 +236,9 @@
             // 
             this.flowLayoutPanel3.Controls.Add(this.groupControl2);
             this.flowLayoutPanel3.Controls.Add(this.lvLopmoi);
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(593, 3);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(406, 3);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(444, 543);
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(286, 543);
             this.flowLayoutPanel3.TabIndex = 5;
             // 
             // groupControl2
@@ -251,7 +251,7 @@
             this.groupControl2.Controls.Add(this.lblNamhocmoi);
             this.groupControl2.Location = new System.Drawing.Point(3, 3);
             this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(441, 153);
+            this.groupControl2.Size = new System.Drawing.Size(276, 153);
             this.groupControl2.TabIndex = 0;
             this.groupControl2.Text = "Thông tin lớp mới";
             // 
@@ -313,7 +313,7 @@
             this.colTenhocsinhmoi});
             this.lvLopmoi.Location = new System.Drawing.Point(3, 162);
             this.lvLopmoi.Name = "lvLopmoi";
-            this.lvLopmoi.Size = new System.Drawing.Size(441, 379);
+            this.lvLopmoi.Size = new System.Drawing.Size(278, 379);
             this.lvLopmoi.TabIndex = 1;
             this.lvLopmoi.UseCompatibleStateImageBehavior = false;
             this.lvLopmoi.View = System.Windows.Forms.View.Details;
@@ -332,7 +332,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1049, 558);
+            this.ClientSize = new System.Drawing.Size(699, 558);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "frmPhanlop";
             this.Text = "Phân lớp";

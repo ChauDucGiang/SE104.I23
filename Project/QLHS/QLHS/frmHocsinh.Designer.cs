@@ -35,7 +35,7 @@
             this.navigationPage1 = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.btnThemvaodanhsach = new System.Windows.Forms.Button();
             this.lblNgaysinh = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblNoisinh = new System.Windows.Forms.Label();
             this.lblGioitinh = new System.Windows.Forms.Label();
             this.lblTenhocsinh = new System.Windows.Forms.Label();
             this.lblMahocsinh = new System.Windows.Forms.Label();
@@ -49,8 +49,8 @@
             this.btnTimkiem = new System.Windows.Forms.Button();
             this.radTimtheotenhocsinh = new System.Windows.Forms.RadioButton();
             this.radTimtheomahocsinh = new System.Windows.Forms.RadioButton();
-            this.txtNhapthongtintimkiem = new System.Windows.Forms.TextBox();
-            this.lblNhapthongtintimkiem = new System.Windows.Forms.Label();
+            this.txtNhapthongtincantimkiem = new System.Windows.Forms.TextBox();
+            this.lblNhapthongtincantimkiem = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
@@ -111,7 +111,7 @@
             this.navigationPage1.Caption = "Thêm dữ liệu";
             this.navigationPage1.Controls.Add(this.btnThemvaodanhsach);
             this.navigationPage1.Controls.Add(this.lblNgaysinh);
-            this.navigationPage1.Controls.Add(this.label4);
+            this.navigationPage1.Controls.Add(this.lblNoisinh);
             this.navigationPage1.Controls.Add(this.lblGioitinh);
             this.navigationPage1.Controls.Add(this.lblTenhocsinh);
             this.navigationPage1.Controls.Add(this.lblMahocsinh);
@@ -142,14 +142,14 @@
             this.lblNgaysinh.TabIndex = 3;
             this.lblNgaysinh.Text = "Ngày sinh";
             // 
-            // label4
+            // lblNoisinh
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(4, 219);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(59, 17);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Nơi sinh";
+            this.lblNoisinh.AutoSize = true;
+            this.lblNoisinh.Location = new System.Drawing.Point(4, 219);
+            this.lblNoisinh.Name = "lblNoisinh";
+            this.lblNoisinh.Size = new System.Drawing.Size(59, 17);
+            this.lblNoisinh.TabIndex = 3;
+            this.lblNoisinh.Text = "Nơi sinh";
             // 
             // lblGioitinh
             // 
@@ -235,8 +235,8 @@
             this.navigationPage2.Controls.Add(this.btnTimkiem);
             this.navigationPage2.Controls.Add(this.radTimtheotenhocsinh);
             this.navigationPage2.Controls.Add(this.radTimtheomahocsinh);
-            this.navigationPage2.Controls.Add(this.txtNhapthongtintimkiem);
-            this.navigationPage2.Controls.Add(this.lblNhapthongtintimkiem);
+            this.navigationPage2.Controls.Add(this.txtNhapthongtincantimkiem);
+            this.navigationPage2.Controls.Add(this.lblNhapthongtincantimkiem);
             this.navigationPage2.Name = "navigationPage2";
             this.navigationPage2.Size = new System.Drawing.Size(209, 479);
             // 
@@ -271,21 +271,21 @@
             this.radTimtheomahocsinh.Text = "Tìm theo mã học sinh";
             this.radTimtheomahocsinh.UseVisualStyleBackColor = true;
             // 
-            // txtNhapthongtintimkiem
+            // txtNhapthongtincantimkiem
             // 
-            this.txtNhapthongtintimkiem.Location = new System.Drawing.Point(7, 73);
-            this.txtNhapthongtintimkiem.Name = "txtNhapthongtintimkiem";
-            this.txtNhapthongtintimkiem.Size = new System.Drawing.Size(165, 22);
-            this.txtNhapthongtintimkiem.TabIndex = 1;
+            this.txtNhapthongtincantimkiem.Location = new System.Drawing.Point(7, 73);
+            this.txtNhapthongtincantimkiem.Name = "txtNhapthongtincantimkiem";
+            this.txtNhapthongtincantimkiem.Size = new System.Drawing.Size(165, 22);
+            this.txtNhapthongtincantimkiem.TabIndex = 1;
             // 
-            // lblNhapthongtintimkiem
+            // lblNhapthongtincantimkiem
             // 
-            this.lblNhapthongtintimkiem.AutoSize = true;
-            this.lblNhapthongtintimkiem.Location = new System.Drawing.Point(4, 39);
-            this.lblNhapthongtintimkiem.Name = "lblNhapthongtintimkiem";
-            this.lblNhapthongtintimkiem.Size = new System.Drawing.Size(183, 17);
-            this.lblNhapthongtintimkiem.TabIndex = 0;
-            this.lblNhapthongtintimkiem.Text = "Nhập thông tin cần tìm kiếm";
+            this.lblNhapthongtincantimkiem.AutoSize = true;
+            this.lblNhapthongtincantimkiem.Location = new System.Drawing.Point(4, 39);
+            this.lblNhapthongtincantimkiem.Name = "lblNhapthongtincantimkiem";
+            this.lblNhapthongtincantimkiem.Size = new System.Drawing.Size(183, 17);
+            this.lblNhapthongtincantimkiem.TabIndex = 0;
+            this.lblNhapthongtincantimkiem.Text = "Nhập thông tin cần tìm kiếm";
             // 
             // groupBox1
             // 
@@ -392,6 +392,7 @@
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(57, 24);
             this.btnExit.Text = "Exit";
+            this.btnExit.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
             // dGVHocsinh
             // 
@@ -466,7 +467,7 @@
         private DevExpress.XtraBars.Navigation.NavigationPage navigationPage1;
         private System.Windows.Forms.Button btnThemvaodanhsach;
         private System.Windows.Forms.Label lblNgaysinh;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblNoisinh;
         private System.Windows.Forms.Label lblGioitinh;
         private System.Windows.Forms.Label lblTenhocsinh;
         private System.Windows.Forms.Label lblMahocsinh;
@@ -480,8 +481,8 @@
         private System.Windows.Forms.Button btnTimkiem;
         private System.Windows.Forms.RadioButton radTimtheotenhocsinh;
         private System.Windows.Forms.RadioButton radTimtheomahocsinh;
-        private System.Windows.Forms.TextBox txtNhapthongtintimkiem;
-        private System.Windows.Forms.Label lblNhapthongtintimkiem;
+        private System.Windows.Forms.TextBox txtNhapthongtincantimkiem;
+        private System.Windows.Forms.Label lblNhapthongtincantimkiem;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.BindingNavigator bindingNavigator1;
         private System.Windows.Forms.ToolStripButton btnAdd;

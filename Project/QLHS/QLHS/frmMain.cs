@@ -15,7 +15,7 @@ namespace QLHS
         {
             InitializeComponent();
         }
-
+        #region Events
         private void btnKetqua_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
 
@@ -39,5 +39,12 @@ namespace QLHS
         {
 
         }
+
+        private void btnLophoc_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmLop clss = new frmLop();
+            clss.ShowDialog();
+        }
+        #endregion
     }
 }

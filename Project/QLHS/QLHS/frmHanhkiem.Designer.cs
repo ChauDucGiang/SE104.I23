@@ -36,7 +36,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.btnAdd = new System.Windows.Forms.ToolStripButton();
+            this.btnAđ = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.btnDelete = new System.Windows.Forms.ToolStripButton();
@@ -95,7 +95,7 @@
             this.bindingNavigator1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.bindingNavigator1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bindingNavigatorSeparator,
-            this.btnAdd,
+            this.btnAđ,
             this.bindingNavigatorSeparator2,
             this.bindingNavigatorSeparator1,
             this.btnDelete,
@@ -121,13 +121,13 @@
             this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
             this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 27);
             // 
-            // btnAdd
+            // btnAđ
             // 
-            this.btnAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.Image")));
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.RightToLeftAutoMirrorImage = true;
-            this.btnAdd.Size = new System.Drawing.Size(92, 24);
-            this.btnAdd.Text = "Add new";
+            this.btnAđ.Image = ((System.Drawing.Image)(resources.GetObject("btnAđ.Image")));
+            this.btnAđ.Name = "btnAđ";
+            this.btnAđ.RightToLeftAutoMirrorImage = true;
+            this.btnAđ.Size = new System.Drawing.Size(92, 24);
+            this.btnAđ.Text = "Add new";
             // 
             // bindingNavigatorSeparator2
             // 
@@ -208,7 +208,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colTenhanhkiem;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.BindingNavigator bindingNavigator1;
-        private System.Windows.Forms.ToolStripButton btnAdd;
+        private System.Windows.Forms.ToolStripButton btnAđ;
         private System.Windows.Forms.ToolStripButton btnDelete;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;

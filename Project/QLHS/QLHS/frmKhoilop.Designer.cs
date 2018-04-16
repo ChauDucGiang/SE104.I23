@@ -184,7 +184,6 @@
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(57, 24);
             this.btnExit.Text = "Exit";
-            this.btnExit.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
             // frmKhoilop
             // 
