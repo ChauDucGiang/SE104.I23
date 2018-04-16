@@ -32,6 +32,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDiem));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dGVDiem = new System.Windows.Forms.DataGridView();
+            this.colMaloaidiem = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTenloaidiem = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colHeso = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
@@ -45,9 +48,6 @@
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.btnExit = new System.Windows.Forms.ToolStripButton();
-            this.colMaloaidiem = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colTenloaidiem = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colHeso = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dGVDiem)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
@@ -80,6 +80,21 @@
             this.dGVDiem.RowTemplate.Height = 24;
             this.dGVDiem.Size = new System.Drawing.Size(794, 402);
             this.dGVDiem.TabIndex = 1;
+            // 
+            // colMaloaidiem
+            // 
+            this.colMaloaidiem.HeaderText = "Mã loại điểm";
+            this.colMaloaidiem.Name = "colMaloaidiem";
+            // 
+            // colTenloaidiem
+            // 
+            this.colTenloaidiem.HeaderText = "Tên loại điểm";
+            this.colTenloaidiem.Name = "colTenloaidiem";
+            // 
+            // colHeso
+            // 
+            this.colHeso.HeaderText = "Hệ số";
+            this.colHeso.Name = "colHeso";
             // 
             // bindingNavigator1
             // 
@@ -183,29 +198,16 @@
             this.btnExit.Size = new System.Drawing.Size(57, 24);
             this.btnExit.Text = "Exit";
             // 
-            // colMaloaidiem
-            // 
-            this.colMaloaidiem.HeaderText = "Mã loại điểm";
-            this.colMaloaidiem.Name = "colMaloaidiem";
-            // 
-            // colTenloaidiem
-            // 
-            this.colTenloaidiem.HeaderText = "Tên loại điểm";
-            this.colTenloaidiem.Name = "colTenloaidiem";
-            // 
-            // colHeso
-            // 
-            this.colHeso.HeaderText = "Hệ số";
-            this.colHeso.Name = "colHeso";
-            // 
             // frmDiem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmDiem";
             this.Text = "Loại điểm";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dGVDiem)).EndInit();

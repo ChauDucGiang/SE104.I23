@@ -32,9 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMonhoc));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dGVMonhoc = new System.Windows.Forms.DataGridView();
-            this.colMamonhoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colTenmonhoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colHeso = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
@@ -48,6 +45,9 @@
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.btnExit = new System.Windows.Forms.ToolStripButton();
+            this.colMamonhoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTenmonhoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colHeso = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dGVMonhoc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
@@ -80,21 +80,6 @@
             this.dGVMonhoc.RowTemplate.Height = 24;
             this.dGVMonhoc.Size = new System.Drawing.Size(794, 402);
             this.dGVMonhoc.TabIndex = 1;
-            // 
-            // colMamonhoc
-            // 
-            this.colMamonhoc.HeaderText = "Mã môn học";
-            this.colMamonhoc.Name = "colMamonhoc";
-            // 
-            // colTenmonhoc
-            // 
-            this.colTenmonhoc.HeaderText = "Tên môn học";
-            this.colTenmonhoc.Name = "colTenmonhoc";
-            // 
-            // colHeso
-            // 
-            this.colHeso.HeaderText = "Hệ số";
-            this.colHeso.Name = "colHeso";
             // 
             // bindingNavigator1
             // 
@@ -197,6 +182,30 @@
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(57, 24);
             this.btnExit.Text = "Exit";
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // colMamonhoc
+            // 
+            this.colMamonhoc.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.colMamonhoc.DataPropertyName = "MaMH";
+            this.colMamonhoc.HeaderText = "Mã môn học";
+            this.colMamonhoc.Name = "colMamonhoc";
+            this.colMamonhoc.Width = 114;
+            // 
+            // colTenmonhoc
+            // 
+            this.colTenmonhoc.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colTenmonhoc.DataPropertyName = "TenMon";
+            this.colTenmonhoc.HeaderText = "Tên môn học";
+            this.colTenmonhoc.Name = "colTenmonhoc";
+            // 
+            // colHeso
+            // 
+            this.colHeso.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.colHeso.DataPropertyName = "HeSoMon";
+            this.colHeso.HeaderText = "Hệ số";
+            this.colHeso.Name = "colHeso";
+            this.colHeso.Width = 74;
             // 
             // frmMonhoc
             // 
@@ -204,8 +213,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmMonhoc";
             this.Text = "Môn học";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.frmMonhoc_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dGVMonhoc)).EndInit();
@@ -226,9 +238,6 @@
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator1;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
         private System.Windows.Forms.DataGridView dGVMonhoc;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colMamonhoc;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colTenmonhoc;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colHeso;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
@@ -236,5 +245,8 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripButton btnExit;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colMamonhoc;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colTenmonhoc;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colHeso;
     }
 }

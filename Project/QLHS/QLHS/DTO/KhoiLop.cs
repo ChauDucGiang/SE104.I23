@@ -9,23 +9,21 @@ namespace QLHS.DTO
 {
     public class KhoiLop
     {
-        public KhoiLop(string makhoi, string tenkhoi)
-        {
-            this.MaKhoi = makhoi;
-            this.TenKhoi = tenkhoi;
-        }
+        private string maKhoiLop;
+        private string tenKhoiLop;
 
+        public string MaKhoiLop { get => maKhoiLop; set => maKhoiLop = value; }
+        public string TenKhoiLop { get => tenKhoiLop; set => tenKhoiLop = value; }
+
+        public KhoiLop(string makhoilop,string tenkhoilop)
+        {
+            this.MaKhoiLop = maKhoiLop;
+            this.TenKhoiLop = tenkhoilop;
+        }
         public KhoiLop(DataRow row)
         {
-            this.MaKhoi = row["MaKhoiLop"].ToString();
-            this.TenKhoi = row["TenKhoiLop"].ToString();
+            this.MaKhoiLop = row["MaKhoiLop"].ToString();
+            this.TenKhoiLop = row["TenKhoiLop"].ToString();
         }
-
-
-        private string tenKhoi;
-        private string maKhoi;
-
-        public string MaKhoi { get => maKhoi; set => maKhoi = value; }
-        public string TenKhoi { get => tenKhoi; set => tenKhoi = value; }
     }
 }

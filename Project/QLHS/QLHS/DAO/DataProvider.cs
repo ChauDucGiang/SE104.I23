@@ -5,10 +5,11 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Configuration;
 
 namespace QLHS.DAO
 {
-    public class DataProvider
+    class DataProvider
     {
         private static DataProvider instance;
 
@@ -27,7 +28,7 @@ namespace QLHS.DAO
 
         private DataProvider() { }
 
-        private string connectionSTR = "Data Source=DESKTOP-33CU0B0\\SQLEXPRESS;Initial Catalog=QuanLyHocSinh;Integrated Security=True";
+        private string connectionSTR = ConfigurationManager.ConnectionStrings["Conn"].ConnectionString;
 
         //Thực hiện các câu lệnh Select
         public DataTable ExecuteQuery(string query, object[] parameter = null)
@@ -114,7 +115,7 @@ namespace QLHS.DAO
                 }
                 data = command.ExecuteScalar();
                 connection.Close();
-
+               
             }
             return data;
         }

@@ -7,20 +7,20 @@ using System.Threading.Tasks;
 
 namespace QLHS.DAO
 {
-    public class KhoiLopDAO
+    public class HocKiDAO
     {
-        private static KhoiLopDAO instance;
+        private static HocKiDAO instance;
 
-        public static KhoiLopDAO Instance
+        public static HocKiDAO Instance
         {
-            get { if (instance == null) instance = new KhoiLopDAO(); return instance; }
+            get { if (instance == null) instance = new HocKiDAO(); return instance; }
             set => instance = value;
         }
-        private KhoiLopDAO() { }
-
-        public DataTable LoadKhoiLop()
+        private HocKiDAO() { }
+        
+        public DataTable LoadHocKi()
         {
-            string query = "SELECT * FROM dbo.KhoiLop";
+            string query = "SELECT * FROM dbo.HocKi";
             DataTable data = DataProvider.Instance.ExecuteQuery(query);
             return data;
         }

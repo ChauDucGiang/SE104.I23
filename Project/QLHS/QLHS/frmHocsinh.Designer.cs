@@ -33,6 +33,12 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.navigationPane1 = new DevExpress.XtraBars.Navigation.NavigationPane();
             this.navigationPage1 = new DevExpress.XtraBars.Navigation.NavigationPage();
+            this.txbDiaChi = new System.Windows.Forms.TextBox();
+            this.lbDiachi = new System.Windows.Forms.Label();
+            this.txbEmail = new System.Windows.Forms.TextBox();
+            this.lbEmail = new System.Windows.Forms.Label();
+            this.txbSoDienThoai = new System.Windows.Forms.TextBox();
+            this.lvSDT = new System.Windows.Forms.Label();
             this.btnThemvaodanhsach = new System.Windows.Forms.Button();
             this.lblNgaysinh = new System.Windows.Forms.Label();
             this.lblNoisinh = new System.Windows.Forms.Label();
@@ -52,6 +58,9 @@
             this.txtNhapthongtincantimkiem = new System.Windows.Forms.TextBox();
             this.lblNhapthongtincantimkiem = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.btnAdd = new System.Windows.Forms.ToolStripButton();
@@ -67,9 +76,12 @@
             this.dGVHocsinh = new System.Windows.Forms.DataGridView();
             this.colMahocsinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colTenhocsinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colGioitinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colNgaysinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colNoisinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColDienThoai = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColDiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colGioitinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).BeginInit();
             this.navigationPane1.SuspendLayout();
@@ -109,6 +121,12 @@
             // navigationPage1
             // 
             this.navigationPage1.Caption = "Thêm dữ liệu";
+            this.navigationPage1.Controls.Add(this.txbDiaChi);
+            this.navigationPage1.Controls.Add(this.lbDiachi);
+            this.navigationPage1.Controls.Add(this.txbEmail);
+            this.navigationPage1.Controls.Add(this.lbEmail);
+            this.navigationPage1.Controls.Add(this.txbSoDienThoai);
+            this.navigationPage1.Controls.Add(this.lvSDT);
             this.navigationPage1.Controls.Add(this.btnThemvaodanhsach);
             this.navigationPage1.Controls.Add(this.lblNgaysinh);
             this.navigationPage1.Controls.Add(this.lblNoisinh);
@@ -124,9 +142,57 @@
             this.navigationPage1.Name = "navigationPage1";
             this.navigationPage1.Size = new System.Drawing.Size(209, 479);
             // 
+            // txbDiaChi
+            // 
+            this.txbDiaChi.Location = new System.Drawing.Point(6, 232);
+            this.txbDiaChi.Name = "txbDiaChi";
+            this.txbDiaChi.Size = new System.Drawing.Size(196, 22);
+            this.txbDiaChi.TabIndex = 10;
+            // 
+            // lbDiachi
+            // 
+            this.lbDiachi.AutoSize = true;
+            this.lbDiachi.Location = new System.Drawing.Point(4, 212);
+            this.lbDiachi.Name = "lbDiachi";
+            this.lbDiachi.Size = new System.Drawing.Size(51, 17);
+            this.lbDiachi.TabIndex = 9;
+            this.lbDiachi.Text = "Địa chỉ";
+            // 
+            // txbEmail
+            // 
+            this.txbEmail.Location = new System.Drawing.Point(6, 173);
+            this.txbEmail.Name = "txbEmail";
+            this.txbEmail.Size = new System.Drawing.Size(151, 22);
+            this.txbEmail.TabIndex = 8;
+            // 
+            // lbEmail
+            // 
+            this.lbEmail.AutoSize = true;
+            this.lbEmail.Location = new System.Drawing.Point(4, 153);
+            this.lbEmail.Name = "lbEmail";
+            this.lbEmail.Size = new System.Drawing.Size(42, 17);
+            this.lbEmail.TabIndex = 7;
+            this.lbEmail.Text = "Email";
+            // 
+            // txbSoDienThoai
+            // 
+            this.txbSoDienThoai.Location = new System.Drawing.Point(3, 127);
+            this.txbSoDienThoai.Name = "txbSoDienThoai";
+            this.txbSoDienThoai.Size = new System.Drawing.Size(154, 22);
+            this.txbSoDienThoai.TabIndex = 6;
+            // 
+            // lvSDT
+            // 
+            this.lvSDT.AutoSize = true;
+            this.lvSDT.Location = new System.Drawing.Point(4, 108);
+            this.lvSDT.Name = "lvSDT";
+            this.lvSDT.Size = new System.Drawing.Size(91, 17);
+            this.lvSDT.TabIndex = 5;
+            this.lvSDT.Text = "Số điện thoại";
+            // 
             // btnThemvaodanhsach
             // 
-            this.btnThemvaodanhsach.Location = new System.Drawing.Point(29, 391);
+            this.btnThemvaodanhsach.Location = new System.Drawing.Point(44, 416);
             this.btnThemvaodanhsach.Name = "btnThemvaodanhsach";
             this.btnThemvaodanhsach.Size = new System.Drawing.Size(125, 46);
             this.btnThemvaodanhsach.TabIndex = 4;
@@ -136,7 +202,7 @@
             // lblNgaysinh
             // 
             this.lblNgaysinh.AutoSize = true;
-            this.lblNgaysinh.Location = new System.Drawing.Point(4, 288);
+            this.lblNgaysinh.Location = new System.Drawing.Point(5, 368);
             this.lblNgaysinh.Name = "lblNgaysinh";
             this.lblNgaysinh.Size = new System.Drawing.Size(71, 17);
             this.lblNgaysinh.TabIndex = 3;
@@ -145,7 +211,7 @@
             // lblNoisinh
             // 
             this.lblNoisinh.AutoSize = true;
-            this.lblNoisinh.Location = new System.Drawing.Point(4, 219);
+            this.lblNoisinh.Location = new System.Drawing.Point(5, 323);
             this.lblNoisinh.Name = "lblNoisinh";
             this.lblNoisinh.Size = new System.Drawing.Size(59, 17);
             this.lblNoisinh.TabIndex = 3;
@@ -154,7 +220,7 @@
             // lblGioitinh
             // 
             this.lblGioitinh.AutoSize = true;
-            this.lblGioitinh.Location = new System.Drawing.Point(4, 150);
+            this.lblGioitinh.Location = new System.Drawing.Point(4, 269);
             this.lblGioitinh.Name = "lblGioitinh";
             this.lblGioitinh.Size = new System.Drawing.Size(60, 17);
             this.lblGioitinh.TabIndex = 3;
@@ -163,7 +229,7 @@
             // lblTenhocsinh
             // 
             this.lblTenhocsinh.AutoSize = true;
-            this.lblTenhocsinh.Location = new System.Drawing.Point(4, 77);
+            this.lblTenhocsinh.Location = new System.Drawing.Point(3, 63);
             this.lblTenhocsinh.Name = "lblTenhocsinh";
             this.lblTenhocsinh.Size = new System.Drawing.Size(90, 17);
             this.lblTenhocsinh.TabIndex = 3;
@@ -181,7 +247,7 @@
             // dtpNgaysinh
             // 
             this.dtpNgaysinh.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpNgaysinh.Location = new System.Drawing.Point(4, 308);
+            this.dtpNgaysinh.Location = new System.Drawing.Point(4, 388);
             this.dtpNgaysinh.Name = "dtpNgaysinh";
             this.dtpNgaysinh.Size = new System.Drawing.Size(178, 22);
             this.dtpNgaysinh.TabIndex = 2;
@@ -189,7 +255,7 @@
             // radNu
             // 
             this.radNu.AutoSize = true;
-            this.radNu.Location = new System.Drawing.Point(97, 179);
+            this.radNu.Location = new System.Drawing.Point(95, 289);
             this.radNu.Name = "radNu";
             this.radNu.Size = new System.Drawing.Size(47, 21);
             this.radNu.TabIndex = 1;
@@ -200,7 +266,7 @@
             // radNam
             // 
             this.radNam.AutoSize = true;
-            this.radNam.Location = new System.Drawing.Point(17, 179);
+            this.radNam.Location = new System.Drawing.Point(16, 289);
             this.radNam.Name = "radNam";
             this.radNam.Size = new System.Drawing.Size(58, 21);
             this.radNam.TabIndex = 1;
@@ -210,14 +276,14 @@
             // 
             // txtNoisinh
             // 
-            this.txtNoisinh.Location = new System.Drawing.Point(4, 239);
+            this.txtNoisinh.Location = new System.Drawing.Point(6, 343);
             this.txtNoisinh.Name = "txtNoisinh";
             this.txtNoisinh.Size = new System.Drawing.Size(100, 22);
             this.txtNoisinh.TabIndex = 0;
             // 
             // txtTenhocsinh
             // 
-            this.txtTenhocsinh.Location = new System.Drawing.Point(4, 97);
+            this.txtTenhocsinh.Location = new System.Drawing.Point(3, 83);
             this.txtTenhocsinh.Name = "txtTenhocsinh";
             this.txtTenhocsinh.Size = new System.Drawing.Size(100, 22);
             this.txtTenhocsinh.TabIndex = 0;
@@ -289,6 +355,9 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.bindingNavigator1);
             this.groupBox1.Controls.Add(this.dGVHocsinh);
             this.groupBox1.Location = new System.Drawing.Point(333, 3);
@@ -297,6 +366,36 @@
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Danh sách học sinh";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Verdana", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label3.Location = new System.Drawing.Point(772, 163);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(217, 46);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "- Ngày sinh theo kiểu\r\n       mm/dd/yyyy";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Verdana", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label2.Location = new System.Drawing.Point(772, 96);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(248, 46);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "- Mã học sinh là kiểu số \r\n   nguyên";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label1.Location = new System.Drawing.Point(771, 49);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(100, 29);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Chú Ý:";
             // 
             // bindingNavigator1
             // 
@@ -355,7 +454,6 @@
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(77, 24);
             this.btnDelete.Text = "Delete";
-            this.btnDelete.Click += new System.EventHandler(this.bindingNavigatorDeleteItem_Click);
             // 
             // toolStripSeparator2
             // 
@@ -392,7 +490,6 @@
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(57, 24);
             this.btnExit.Text = "Exit";
-            this.btnExit.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
             // dGVHocsinh
             // 
@@ -401,39 +498,73 @@
             this.dGVHocsinh.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colMahocsinh,
             this.colTenhocsinh,
-            this.colGioitinh,
             this.colNgaysinh,
-            this.colNoisinh});
+            this.colNoisinh,
+            this.ColDienThoai,
+            this.ColDiaChi,
+            this.colGioitinh,
+            this.ColEmail});
             this.dGVHocsinh.Location = new System.Drawing.Point(0, 49);
             this.dGVHocsinh.Name = "dGVHocsinh";
             this.dGVHocsinh.RowTemplate.Height = 24;
-            this.dGVHocsinh.Size = new System.Drawing.Size(1009, 490);
+            this.dGVHocsinh.Size = new System.Drawing.Size(744, 490);
             this.dGVHocsinh.TabIndex = 0;
             // 
             // colMahocsinh
             // 
+            this.colMahocsinh.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colMahocsinh.DataPropertyName = "MaHS";
             this.colMahocsinh.HeaderText = "Mã học sinh";
             this.colMahocsinh.Name = "colMahocsinh";
             // 
             // colTenhocsinh
             // 
+            this.colTenhocsinh.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colTenhocsinh.DataPropertyName = "HoTen";
             this.colTenhocsinh.HeaderText = "Tên học sinh";
             this.colTenhocsinh.Name = "colTenhocsinh";
             // 
-            // colGioitinh
-            // 
-            this.colGioitinh.HeaderText = "Giới tính";
-            this.colGioitinh.Name = "colGioitinh";
-            // 
             // colNgaysinh
             // 
+            this.colNgaysinh.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colNgaysinh.DataPropertyName = "NgaySinh";
             this.colNgaysinh.HeaderText = "Ngày sinh";
             this.colNgaysinh.Name = "colNgaysinh";
             // 
             // colNoisinh
             // 
+            this.colNoisinh.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colNoisinh.DataPropertyName = "NoiSinh";
             this.colNoisinh.HeaderText = "Nơi sinh";
             this.colNoisinh.Name = "colNoisinh";
+            // 
+            // ColDienThoai
+            // 
+            this.ColDienThoai.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColDienThoai.DataPropertyName = "DienThoai";
+            this.ColDienThoai.HeaderText = "Số điện thoại";
+            this.ColDienThoai.Name = "ColDienThoai";
+            // 
+            // ColDiaChi
+            // 
+            this.ColDiaChi.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColDiaChi.DataPropertyName = "DiaChi";
+            this.ColDiaChi.HeaderText = "Địa chỉ";
+            this.ColDiaChi.Name = "ColDiaChi";
+            // 
+            // colGioitinh
+            // 
+            this.colGioitinh.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colGioitinh.DataPropertyName = "GioiTinh";
+            this.colGioitinh.HeaderText = "Giới tính";
+            this.colGioitinh.Name = "colGioitinh";
+            // 
+            // ColEmail
+            // 
+            this.ColEmail.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ColEmail.DataPropertyName = "Email";
+            this.ColEmail.HeaderText = "Email";
+            this.ColEmail.Name = "ColEmail";
             // 
             // frmHocsinh
             // 
@@ -441,8 +572,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1391, 563);
             this.Controls.Add(this.flowLayoutPanel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmHocsinh";
             this.Text = "Học sinh";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.flowLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).EndInit();
             this.navigationPane1.ResumeLayout(false);
@@ -497,10 +630,22 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripButton btnExit;
         private System.Windows.Forms.DataGridView dGVHocsinh;
+        private System.Windows.Forms.TextBox txbDiaChi;
+        private System.Windows.Forms.Label lbDiachi;
+        private System.Windows.Forms.TextBox txbEmail;
+        private System.Windows.Forms.Label lbEmail;
+        private System.Windows.Forms.TextBox txbSoDienThoai;
+        private System.Windows.Forms.Label lvSDT;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridViewTextBoxColumn colMahocsinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn colTenhocsinh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colGioitinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn colNgaysinh;
         private System.Windows.Forms.DataGridViewTextBoxColumn colNoisinh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColDienThoai;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColDiaChi;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colGioitinh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColEmail;
     }
 }

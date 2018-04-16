@@ -380,8 +380,10 @@
             this.ClientSize = new System.Drawing.Size(972, 593);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panelControl1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmNhapdiemrieng";
             this.Text = "Nhập điểm học sinh";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();

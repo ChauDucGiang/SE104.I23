@@ -83,16 +83,22 @@
             // 
             // colMahocky
             // 
+            this.colMahocky.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colMahocky.DataPropertyName = "MaHocKi";
             this.colMahocky.HeaderText = "Mã học kỳ";
             this.colMahocky.Name = "colMahocky";
             // 
             // colTenhocky
             // 
+            this.colTenhocky.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colTenhocky.DataPropertyName = "TenHocKi";
             this.colTenhocky.HeaderText = "Tên học kỳ";
             this.colTenhocky.Name = "colTenhocky";
             // 
             // colHeso
             // 
+            this.colHeso.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colHeso.DataPropertyName = "HeSo";
             this.colHeso.HeaderText = "Hệ số";
             this.colHeso.Name = "colHeso";
             // 
@@ -197,6 +203,7 @@
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(57, 24);
             this.btnExit.Text = "Exit";
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // frmHocky
             // 
@@ -204,8 +211,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(521, 321);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmHocky";
             this.Text = "Học kỳ";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.frmHocky_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dGVHocky)).EndInit();
@@ -226,9 +236,6 @@
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator1;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
         private System.Windows.Forms.DataGridView dGVHocky;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colMahocky;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colTenhocky;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colHeso;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
@@ -236,5 +243,8 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripButton btnExit;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colMahocky;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colTenhocky;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colHeso;
     }
 }

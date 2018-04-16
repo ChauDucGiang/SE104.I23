@@ -67,11 +67,13 @@
             // 
             // colMahanhkiem
             // 
+            this.colMahanhkiem.DataPropertyName = "MaHK";
             this.colMahanhkiem.HeaderText = "Mã hạnh kiểm";
             this.colMahanhkiem.Name = "colMahanhkiem";
             // 
             // colTenhanhkiem
             // 
+            this.colTenhanhkiem.DataPropertyName = "LoaiHK";
             this.colTenhanhkiem.HeaderText = "Tên hạnh kiểm";
             this.colTenhanhkiem.Name = "colTenhanhkiem";
             // 
@@ -182,6 +184,7 @@
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(57, 24);
             this.btnExit.Text = "Exit";
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // frmHanhkiem
             // 
@@ -189,8 +192,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmHanhkiem";
-            this.Text = "frmHanhkiem";
+            this.Text = "Hanhkiem";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.frmHanhkiem_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dGVHanhkiem)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -204,8 +210,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dGVHanhkiem;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colMahanhkiem;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colTenhanhkiem;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.BindingNavigator bindingNavigator1;
         private System.Windows.Forms.ToolStripButton btnAđ;
@@ -219,5 +223,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.ToolStripButton btnExit;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colMahanhkiem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colTenhanhkiem;
     }
 }

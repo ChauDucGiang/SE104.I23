@@ -425,8 +425,10 @@
             this.ClientSize = new System.Drawing.Size(1006, 450);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.navigationPane1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmNhapdiemchung";
             this.Text = "Nhập điểm lớp";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).EndInit();
             this.navigationPane1.ResumeLayout(false);
             this.navigationPage1.ResumeLayout(false);

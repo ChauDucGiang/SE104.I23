@@ -32,8 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmKhoilop));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dGVKhoilop = new System.Windows.Forms.DataGridView();
-            this.colMakhoilop = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colTenkhoilop = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.btnAdd = new System.Windows.Forms.ToolStripButton();
@@ -46,6 +44,8 @@
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.btnExit = new System.Windows.Forms.ToolStripButton();
+            this.colMakhoilop = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTenkhoilop = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dGVKhoilop)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
@@ -77,16 +77,6 @@
             this.dGVKhoilop.RowTemplate.Height = 24;
             this.dGVKhoilop.Size = new System.Drawing.Size(794, 402);
             this.dGVKhoilop.TabIndex = 1;
-            // 
-            // colMakhoilop
-            // 
-            this.colMakhoilop.HeaderText = "Mã khối lớp";
-            this.colMakhoilop.Name = "colMakhoilop";
-            // 
-            // colTenkhoilop
-            // 
-            this.colTenkhoilop.HeaderText = "Tên khối lớp";
-            this.colTenkhoilop.Name = "colTenkhoilop";
             // 
             // bindingNavigator1
             // 
@@ -185,14 +175,31 @@
             this.btnExit.Size = new System.Drawing.Size(57, 24);
             this.btnExit.Text = "Exit";
             // 
+            // colMakhoilop
+            // 
+            this.colMakhoilop.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colMakhoilop.DataPropertyName = "MaKhoiLop";
+            this.colMakhoilop.HeaderText = "Mã khối lớp";
+            this.colMakhoilop.Name = "colMakhoilop";
+            // 
+            // colTenkhoilop
+            // 
+            this.colTenkhoilop.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colTenkhoilop.DataPropertyName = "TenKhoiLop";
+            this.colTenkhoilop.HeaderText = "Tên khối lớp";
+            this.colTenkhoilop.Name = "colTenkhoilop";
+            // 
             // frmKhoilop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmKhoilop";
             this.Text = "Khối lớp";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.frmKhoilop_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dGVKhoilop)).EndInit();
@@ -214,12 +221,12 @@
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
         private System.Windows.Forms.ToolStripButton btnSave;
         private System.Windows.Forms.DataGridView dGVKhoilop;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colMakhoilop;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colTenkhoilop;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.ToolStripButton btnExit;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colMakhoilop;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colTenkhoilop;
     }
 }

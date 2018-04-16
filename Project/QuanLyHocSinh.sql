@@ -1,6 +1,4 @@
 ﻿------------------------------------------------------------------------------------------
-CREATE DATABASE QuanLyHocSinh
-USE QuanLyHocSinh
 CREATE TABLE Account
 (
 	UserName NVARCHAR(100) PRIMARY KEY,
@@ -9,22 +7,6 @@ CREATE TABLE Account
 	DisplayName NVARCHAR(100),
 	Type NVARCHAR(50)
 )
-
-GO	
-INSERT INTO	dbo.Account
-        ( UserName ,
-          PassWord ,
-          TenNguoiDung ,
-          DisplayName ,
-          Type
-        )
-VALUES  ( N'admin' , -- UserName - nvarchar(100)
-          N'admin' , -- PassWord - nvarchar(100)
-          N'Admin' , -- TenNguoiDung - nvarchar(100)
-          N'Admin' , -- DisplayName - nvarchar(100)
-          N'Admin'  -- Type - nvarchar(50)
-        )
-
 GO
 INSERT INTO dbo.Account
         ( UserName ,
@@ -152,7 +134,7 @@ CREATE TABLE KQ_CaNam_MonHoc
 	MaHS INT,
 	MaLop INT,
 	NamHoc NVARCHAR(50),
-	MaMH INT,
+	MaMH VARCHAR(10),
 	MaKQ VARCHAR(10)
 	CONSTRAINT PK_KQ_CaNam_MH PRIMARY KEY(MaHS,MaMH),
 	FOREIGN KEY(MaHS) REFERENCES dbo.HocSinh(MaHS),
@@ -233,16 +215,3 @@ CREATE TABLE XepLop
 )
 GO
 --------------------------------------------------------------------------------------------------------------------------
---Login
-CREATE PROC USP_User_Login
-@userName NVARCHAR(100),
-@passWord NVARCHAR(100)
-AS
-	BEGIN
-		SELECT dbo.Account.UserName,dbo.Account.PassWord FROM dbo.Account WHERE UserName=@userName AND	PassWord = @passWord
-	END	
-GO
-
-EXEC dbo.USP_User_Login @userName = N'', -- nvarchar(100)
-    @passWord = N'' -- nvarchar(100)
-	
