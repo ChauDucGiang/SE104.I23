@@ -1,0 +1,474 @@
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\QLHS.exe
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\QLHS.pdb
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\DevExpress.BonusSkins.v17.2.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\DevExpress.Data.v17.2.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\DevExpress.Printing.v17.2.Core.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\DevExpress.Sparkline.v17.2.Core.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\DevExpress.Utils.v17.2.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\DevExpress.XtraBars.v17.2.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\DevExpress.XtraEditors.v17.2.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\DevExpress.Pdf.v17.2.Core.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\DevExpress.Data.v17.2.xml
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\DevExpress.Utils.v17.2.xml
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\DevExpress.Sparkline.v17.2.Core.xml
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\DevExpress.XtraBars.v17.2.xml
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\DevExpress.XtraEditors.v17.2.xml
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\DevExpress.Printing.v17.2.Core.xml
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\DevExpress.Pdf.v17.2.Core.xml
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\de\DevExpress.Data.v17.2.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\es\DevExpress.Data.v17.2.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\ja\DevExpress.Data.v17.2.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\ru\DevExpress.Data.v17.2.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\de\DevExpress.Utils.v17.2.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\es\DevExpress.Utils.v17.2.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\ja\DevExpress.Utils.v17.2.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\ru\DevExpress.Utils.v17.2.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\de\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\es\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\ja\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\ru\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\de\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\es\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\ja\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\ru\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\de\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\es\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\ja\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\ru\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\de\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\es\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\ja\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\ru\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\QLHS\QLHS\obj\Debug\QLHS.csprojResolveAssemblyReference.cache
+C:\Users\LionC\Desktop\QLHS\QLHS\obj\Debug\QLHS.Properties.Resources.resources
+C:\Users\LionC\Desktop\QLHS\QLHS\obj\Debug\QLHS.csproj.GenerateResource.cache
+C:\Users\LionC\Desktop\QLHS\QLHS\obj\Debug\QLHS.exe.licenses
+C:\Users\LionC\Desktop\QLHS\QLHS\obj\Debug\QLHS.csproj.CoreCompileInputs.cache
+C:\Users\LionC\Desktop\QLHS\QLHS\obj\Debug\QLHS.csproj.CopyComplete
+C:\Users\LionC\Desktop\QLHS\QLHS\obj\Debug\QLHS.exe
+C:\Users\LionC\Desktop\QLHS\QLHS\obj\Debug\QLHS.pdb
+C:\Users\LionC\Desktop\QLHS\QLHS\obj\Debug\QLHS.frmMain.resources
+C:\Users\LionC\Desktop\QLHS\QLHS\obj\Debug\QLHS.frmLogin.resources
+C:\Users\owlbo\Downloads\QLHS\QLHS\obj\Debug\QLHS.exe
+C:\Users\owlbo\Downloads\QLHS\QLHS\obj\Debug\QLHS.pdb
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\QLHS.exe
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\QLHS.pdb
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\DevExpress.Pdf.v17.2.Core.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\DevExpress.Data.v17.2.xml
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\DevExpress.Utils.v17.2.xml
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\DevExpress.Sparkline.v17.2.Core.xml
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\DevExpress.XtraBars.v17.2.xml
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\DevExpress.XtraEditors.v17.2.xml
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\DevExpress.Printing.v17.2.Core.xml
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\DevExpress.Pdf.v17.2.Core.xml
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\de\DevExpress.Data.v17.2.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\es\DevExpress.Data.v17.2.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\ja\DevExpress.Data.v17.2.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\ru\DevExpress.Data.v17.2.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\de\DevExpress.Utils.v17.2.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\es\DevExpress.Utils.v17.2.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\ja\DevExpress.Utils.v17.2.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\ru\DevExpress.Utils.v17.2.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\de\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\es\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\ja\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\ru\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\de\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\es\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\ja\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\ru\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\de\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\es\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\ja\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\ru\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\de\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\es\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\ja\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\ru\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\owlbo\Downloads\QLHS\QLHS\obj\Debug\QLHS.csprojResolveAssemblyReference.cache
+C:\Users\owlbo\Downloads\QLHS\QLHS\obj\Debug\QLHS.frmLogin.resources
+C:\Users\owlbo\Downloads\QLHS\QLHS\obj\Debug\QLHS.frmMain.resources
+C:\Users\owlbo\Downloads\QLHS\QLHS\obj\Debug\QLHS.Properties.Resources.resources
+C:\Users\owlbo\Downloads\QLHS\QLHS\obj\Debug\QLHS.csproj.GenerateResource.Cache
+C:\Users\owlbo\Downloads\QLHS\QLHS\obj\Debug\QLHS.exe.licenses
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\QLHS.exe
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\QLHS.pdb
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.BonusSkins.v17.2.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Data.v17.2.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Printing.v17.2.Core.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Sparkline.v17.2.Core.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Utils.v17.2.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.XtraBars.v17.2.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.XtraEditors.v17.2.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Pdf.v17.2.Core.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Data.v17.2.xml
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Utils.v17.2.xml
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Sparkline.v17.2.Core.xml
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.XtraBars.v17.2.xml
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.XtraEditors.v17.2.xml
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Printing.v17.2.Core.xml
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Pdf.v17.2.Core.xml
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Data.v17.2.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Data.v17.2.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Data.v17.2.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Data.v17.2.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Utils.v17.2.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Utils.v17.2.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Utils.v17.2.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Utils.v17.2.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.csprojResolveAssemblyReference.cache
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmLogin.resources
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmLop.resources
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmMain.resources
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.Properties.Resources.resources
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.csproj.GenerateResource.cache
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.exe.licenses
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.csproj.CoreCompileInputs.cache
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.csproj.CopyComplete
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.exe
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.pdb
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmHocsinh.resources
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmKhoilop.resources
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmHanhkiem.resources
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmDiem.resources
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmHocky.resources
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmHocluc.resources
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmKetqua.resources
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmMonhoc.resources
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmNamhoc.resources
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmNhapdiemchung.resources
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmNhapdiemrieng.resources
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmXemdiem.resources
+C:\Users\LionC\Desktop\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmPhanlop.resources
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\QLHS.exe
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\QLHS.pdb
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.BonusSkins.v17.2.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Data.v17.2.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Printing.v17.2.Core.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Sparkline.v17.2.Core.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Utils.v17.2.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.XtraBars.v17.2.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.XtraEditors.v17.2.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Pdf.v17.2.Core.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Data.v17.2.xml
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Utils.v17.2.xml
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Sparkline.v17.2.Core.xml
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.XtraBars.v17.2.xml
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.XtraEditors.v17.2.xml
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Printing.v17.2.Core.xml
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Pdf.v17.2.Core.xml
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Data.v17.2.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Data.v17.2.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Data.v17.2.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Data.v17.2.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Utils.v17.2.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Utils.v17.2.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Utils.v17.2.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Utils.v17.2.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Sparkline.v17.2.Core.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Sparkline.v17.2.Core.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Sparkline.v17.2.Core.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Sparkline.v17.2.Core.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.XtraBars.v17.2.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.XtraBars.v17.2.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.XtraBars.v17.2.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.XtraBars.v17.2.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.XtraEditors.v17.2.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.XtraEditors.v17.2.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.XtraEditors.v17.2.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.XtraEditors.v17.2.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Printing.v17.2.Core.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Printing.v17.2.Core.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Printing.v17.2.Core.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Printing.v17.2.Core.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmDiem.resources
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmHanhkiem.resources
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmHocky.resources
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmHocluc.resources
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmHocsinh.resources
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmKetqua.resources
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmKhoilop.resources
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmLogin.resources
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmLop.resources
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmMain.resources
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmMonhoc.resources
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmNamhoc.resources
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmNhapdiemchung.resources
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmNhapdiemrieng.resources
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmPhanlop.resources
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmXemdiem.resources
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.Properties.Resources.resources
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.csproj.GenerateResource.cache
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.exe.licenses
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.csproj.CoreCompileInputs.cache
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.csproj.CopyComplete
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.exe
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.pdb
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\bin\Debug\QLHS.exe.config
+D:\Study\c#\QuanLyHocSinh\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.csprojResolveAssemblyReference.cache
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\QLHS.exe.config
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\QLHS.exe
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\QLHS.pdb
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.BonusSkins.v17.2.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Data.v17.2.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Printing.v17.2.Core.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Sparkline.v17.2.Core.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Utils.v17.2.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.XtraBars.v17.2.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.XtraEditors.v17.2.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Pdf.v17.2.Core.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Data.v17.2.xml
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Utils.v17.2.xml
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Sparkline.v17.2.Core.xml
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.XtraBars.v17.2.xml
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.XtraEditors.v17.2.xml
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Printing.v17.2.Core.xml
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Pdf.v17.2.Core.xml
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Data.v17.2.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Data.v17.2.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Data.v17.2.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Data.v17.2.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Utils.v17.2.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Utils.v17.2.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Utils.v17.2.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Utils.v17.2.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.csprojResolveAssemblyReference.cache
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmDiem.resources
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmHanhkiem.resources
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmHocky.resources
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmHocluc.resources
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmHocsinh.resources
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmKetqua.resources
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmKhoilop.resources
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmLogin.resources
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmLop.resources
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmMain.resources
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmMonhoc.resources
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmNamhoc.resources
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmNhapdiemchung.resources
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmNhapdiemrieng.resources
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmPhanlop.resources
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmXemdiem.resources
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.Properties.Resources.resources
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.csproj.GenerateResource.cache
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.exe.licenses
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.csproj.CoreCompileInputs.cache
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.csproj.CopyComplete
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.exe
+C:\Users\owlbo\OneDrive\Documents\GitHub\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.pdb
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\QLHS.exe.config
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\QLHS.exe
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\QLHS.pdb
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.BonusSkins.v17.2.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Data.v17.2.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Printing.v17.2.Core.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Sparkline.v17.2.Core.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Utils.v17.2.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.XtraBars.v17.2.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.XtraEditors.v17.2.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Pdf.v17.2.Core.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Data.v17.2.xml
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Utils.v17.2.xml
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Sparkline.v17.2.Core.xml
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.XtraBars.v17.2.xml
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.XtraEditors.v17.2.xml
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Printing.v17.2.Core.xml
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\DevExpress.Pdf.v17.2.Core.xml
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Data.v17.2.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Data.v17.2.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Data.v17.2.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Data.v17.2.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Utils.v17.2.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Utils.v17.2.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Utils.v17.2.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Utils.v17.2.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Sparkline.v17.2.Core.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Sparkline.v17.2.Core.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Sparkline.v17.2.Core.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Sparkline.v17.2.Core.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.XtraBars.v17.2.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.XtraBars.v17.2.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.XtraBars.v17.2.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.XtraBars.v17.2.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.XtraEditors.v17.2.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.XtraEditors.v17.2.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.XtraEditors.v17.2.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.XtraEditors.v17.2.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Printing.v17.2.Core.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Printing.v17.2.Core.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Printing.v17.2.Core.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Printing.v17.2.Core.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.csprojResolveAssemblyReference.cache
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmDiem.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmDoimatkhau.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmGiaovien.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmHanhkiem.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmHocky.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmHocluc.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmHocsinh.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmKetqua.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmKetquacanamtheolop.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmKetquacanamtheomon.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmKetquahockytheolop.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmKetquahockytheomon.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmKhoilop.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmLogin.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmLop.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmMain.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmMonhoc.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmNamhoc.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmNhapdiemchung.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmNhapdiemrieng.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmPhanlop.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmQuydinhchung.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmQuydinhdotuoi.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmQuydinhvesiso.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmQuydinhvethangdiem.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmThongtinphanmem.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmThongtintruonghoc.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.frmXemdiem.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.Properties.Resources.resources
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.csproj.GenerateResource.cache
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.exe.licenses
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.csproj.CoreCompileInputs.cache
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.csproj.CopyComplete
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.exe
+D:\Lập trình\Project\SE104.I23\Project\QLHS\QLHS\obj\Debug\QLHS.pdb
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\QLHS.exe.config
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\QLHS.exe
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\QLHS.pdb
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\DevExpress.BonusSkins.v17.2.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\DevExpress.Data.v17.2.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\DevExpress.Printing.v17.2.Core.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\DevExpress.Sparkline.v17.2.Core.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\DevExpress.Utils.v17.2.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\DevExpress.XtraBars.v17.2.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\DevExpress.XtraEditors.v17.2.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\DevExpress.Pdf.v17.2.Core.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\DevExpress.Data.v17.2.xml
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\DevExpress.Utils.v17.2.xml
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\DevExpress.Sparkline.v17.2.Core.xml
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\DevExpress.XtraBars.v17.2.xml
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\DevExpress.XtraEditors.v17.2.xml
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\DevExpress.Printing.v17.2.Core.xml
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\DevExpress.Pdf.v17.2.Core.xml
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Data.v17.2.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Data.v17.2.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Data.v17.2.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Data.v17.2.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Utils.v17.2.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Utils.v17.2.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Utils.v17.2.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Utils.v17.2.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\de\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\es\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\de\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\es\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.csprojResolveAssemblyReference.cache
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmDiem.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmDoimatkhau.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmGiaovien.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmHanhkiem.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmHocky.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmHocluc.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmHocsinh.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmKetqua.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmKetquacanamtheolop.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmKetquacanamtheomon.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmKetquahockytheolop.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmKetquahockytheomon.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmKhoilop.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmLogin.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmLop.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmMain.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmMonhoc.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmNamhoc.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmNhapdiemchung.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmNhapdiemrieng.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmPhanlop.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmQuydinhchung.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmQuydinhdotuoi.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmQuydinhvesiso.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmQuydinhvethangdiem.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmThongtinphanmem.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmThongtintruonghoc.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.frmXemdiem.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.Properties.Resources.resources
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.csproj.GenerateResource.cache
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.exe.licenses
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.csproj.CoreCompileInputs.cache
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.csproj.CopyComplete
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.exe
+C:\Users\abc\Desktop\Project\QLHS\QLHS\obj\Debug\QLHS.pdb
