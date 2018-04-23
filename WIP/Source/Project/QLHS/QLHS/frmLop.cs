@@ -144,6 +144,31 @@ namespace QLHS
             }
 
         }
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            string ml = dGVLop.CurrentRow.Cells["MaLop"].Value.ToString();
+            string tenlop = dGVLop.CurrentRow.Cells["TenLop"].Value.ToString();
+            string tenkhoi = dGVLop.CurrentRow.Cells["TenKhoiLop"].Value.ToString();
+            string gvcn = dGVLop.CurrentRow.Cells["TenGV"].Value.ToString();
+            string namhoc = dGVLop.CurrentRow.Cells["TenNamHoc"].Value.ToString();
+
+            if (ClassDAO.Instance.updateClass(ml, tenlop, tenkhoi, gvcn, namhoc))
+            {
+                MessageBox.Show("Đã thay đổi thông tin của lớp có mã lớp là " + ml);
+                loadClass();
+            }
+
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            string ml = dGVLop.CurrentRow.Cells["MaLop"].Value.ToString();
+            if(ClassDAO.Instance.deleteClass(ml))
+            {
+                MessageBox.Show("Đã xóa lớp có mã " + ml);
+                loadClass();
+            }
+        }
 
         #endregion
         #region Func
@@ -158,6 +183,24 @@ namespace QLHS
         //        btnLuu.Enabled = false;
         //    }
         //}
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            // Check if Enter is pressed
+            if (keyData == Keys.Enter)
+            {
+                // If there isn't any selected row, do nothing
+                if (dGVLop.CurrentRow == null)
+                {
+                    return true;
+                }
+
+                // Display first cell's value
+                dGVLop.CurrentCell = dGVLop.CurrentRow.Cells["MaLop"];
+                return true;
+            }
+
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
         #endregion
 
         private void navigationPane1_Click(object sender, EventArgs e)
