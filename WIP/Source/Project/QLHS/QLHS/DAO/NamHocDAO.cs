@@ -33,6 +33,17 @@ namespace QLHS.DAO
             int re = DataProvider.Instance.ExecuteNonQuery(query);
             return re > 0;
         }
+        public bool SuaNamHoc(string manamhoc,string tennamhoc)
+        {
+            string query = "EXEC dbo.USP_SuaNamHoc @tennh = N'" + tennamhoc + "',@manh = N'" + manamhoc + "'";
+            int re = DataProvider.Instance.ExecuteNonQuery(query);
+            return re > 0;
+        }
+        public bool CheckNamHocExist(string manamhoc)
+        {
+            DataTable data = DataProvider.Instance.ExecuteQuery("SELECT * FROM NamHoc WHERE MaNamHoc = N'" + manamhoc + "'");
+            return data.Rows.Count > 0;
+        }
         public List<NamHoc> getListNamHoc()
         {
             List<NamHoc> list = new List<NamHoc>();

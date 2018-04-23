@@ -8,18 +8,52 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using DevExpress.XtraReports.UI;
+using QLHS.Report;
 
 namespace QLHS
 {
     public partial class frmMain : DevExpress.XtraEditors.XtraForm
     {
+        public delegate void GetUser(string u);
         private string User = "";
         public frmMain()
         {
             InitializeComponent();
         }
         #region Event
+        private void btnQDsiso_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmQuydinhvesiso f = new frmQuydinhvesiso();
+            if (ExistForm(f)) return;
+            f.MdiParent = this;
+            f.Show();
+        }
 
+        private void btnQDthangdiem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmQuydinhvethangdiem f = new frmQuydinhvethangdiem();
+            if (ExistForm(f)) return;
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void btnQDtuoi_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmQuydinhdotuoi f = new frmQuydinhdotuoi();
+            if (ExistForm(f)) return;
+            f.MdiParent = this;
+            f.Show();
+        }
+        private void btGiaoVien_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmGiaovien f = new frmGiaovien();
+            if (ExistForm(f)) return;
+            GetUser g = new GetUser(f.SaveU);
+            g(User);
+            f.MdiParent = this;
+            f.Show();
+        }
         private void btNhapDiemRieng_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             frmNhapdiemrieng form = new frmNhapdiemrieng();
@@ -38,6 +72,8 @@ namespace QLHS
         {
             frmLop form = new frmLop();
             if (ExistForm(form)) return;
+            GetUser g = new GetUser(form.SaveU);
+            g(User);
             form.MdiParent = this;
             form.Show();
         }
@@ -105,6 +141,8 @@ namespace QLHS
         {
             frmHocsinh form = new frmHocsinh();
             if (ExistForm(form)) return;
+            GetUser g = new GetUser(form.SaveU);
+            g(User);
             form.MdiParent = this;
             form.Show();
         }
@@ -112,8 +150,35 @@ namespace QLHS
         {
             frmPhanlop f = new frmPhanlop();
             if (ExistForm(f)) return;
+            //GetUser g = new GetUser(f.SaveU);
+            //g(User,ref btnPhanLop);
             f.MdiParent=this;
             f.Show();
+        }
+        private void btmQuiDInhCHung_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmQuydinhchung f = new frmQuydinhchung();
+            if (ExistForm(f)) return;
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void btnDSHS_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            DSHS ds = new DSHS();
+            ds.ShowPreviewDialog();
+        }
+
+        private void btnDSGV_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            DSGV ds = new DSGV();
+            ds.ShowPreviewDialog();
+        }
+
+        private void btnDSlop_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            DSLop ds = new DSLop();
+            ds.ShowPreviewDialog();
         }
         #endregion
 
@@ -122,7 +187,14 @@ namespace QLHS
         {
             this.User = txb.Text;
             string type = AccountDAO.Instance.GetType(User);
-            if (!type.Equals("admin")) rbQuyDinh.Visible = false;
+            if (!type.Equals("admin"))
+            {
+                rbQuyDinh.Visible = false;
+                btnPhanLop.Enabled = false;
+                btGiaoVien.Enabled = false;
+                btnNamhoc.Enabled = false;
+            }
+            
         }
         public bool ExistForm(Form form)
         {
@@ -136,12 +208,12 @@ namespace QLHS
             }
             return false;
         }
+
+
+
+
         #endregion
 
-        private void btGiaoVien_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
-        {
-            
-        }
 
     }
 }

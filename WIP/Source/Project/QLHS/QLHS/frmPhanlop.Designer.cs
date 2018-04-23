@@ -41,6 +41,7 @@
             this.colMahocsinhcu = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colTenhocsinhcu = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.cbNewStudent = new System.Windows.Forms.CheckBox();
             this.btnChuyentatca = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
             this.btnLuu = new System.Windows.Forms.Button();
@@ -76,7 +77,7 @@
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(699, 558);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(698, 549);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // flowLayoutPanel2
@@ -136,6 +137,7 @@
             this.cmbLopcu.Name = "cmbLopcu";
             this.cmbLopcu.Size = new System.Drawing.Size(121, 24);
             this.cmbLopcu.TabIndex = 0;
+            this.cmbLopcu.SelectedIndexChanged += new System.EventHandler(this.cmbLopcu_SelectedIndexChanged);
             // 
             // cmbKhoilopcu
             // 
@@ -144,6 +146,7 @@
             this.cmbKhoilopcu.Name = "cmbKhoilopcu";
             this.cmbKhoilopcu.Size = new System.Drawing.Size(121, 24);
             this.cmbKhoilopcu.TabIndex = 0;
+            this.cmbKhoilopcu.SelectedIndexChanged += new System.EventHandler(this.cmbKhoilopcu_SelectedIndexChanged);
             // 
             // cmbNamhoccu
             // 
@@ -152,6 +155,7 @@
             this.cmbNamhoccu.Name = "cmbNamhoccu";
             this.cmbNamhoccu.Size = new System.Drawing.Size(121, 24);
             this.cmbNamhoccu.TabIndex = 0;
+            this.cmbNamhoccu.SelectedIndexChanged += new System.EventHandler(this.cmbNamhoccu_SelectedIndexChanged);
             // 
             // lvLopcu
             // 
@@ -177,6 +181,7 @@
             // 
             // panelControl1
             // 
+            this.panelControl1.Controls.Add(this.cbNewStudent);
             this.panelControl1.Controls.Add(this.btnChuyentatca);
             this.panelControl1.Controls.Add(this.btnThoat);
             this.panelControl1.Controls.Add(this.btnLuu);
@@ -186,6 +191,17 @@
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(105, 543);
             this.panelControl1.TabIndex = 4;
+            // 
+            // cbNewStudent
+            // 
+            this.cbNewStudent.AutoSize = true;
+            this.cbNewStudent.Location = new System.Drawing.Point(11, 65);
+            this.cbNewStudent.Name = "cbNewStudent";
+            this.cbNewStudent.Size = new System.Drawing.Size(86, 38);
+            this.cbNewStudent.TabIndex = 3;
+            this.cbNewStudent.Text = "Học sinh \r\nmới";
+            this.cbNewStudent.UseVisualStyleBackColor = true;
+            this.cbNewStudent.CheckedChanged += new System.EventHandler(this.cbNewStudent_CheckedChanged);
             // 
             // btnChuyentatca
             // 
@@ -332,11 +348,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(699, 558);
+            this.ClientSize = new System.Drawing.Size(698, 549);
             this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmPhanlop";
             this.Text = "Phân lớp";
+            this.Load += new System.EventHandler(this.frmPhanlop_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
@@ -344,6 +361,7 @@
             this.groupControl1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
+            this.panelControl1.PerformLayout();
             this.flowLayoutPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
@@ -383,5 +401,6 @@
         private System.Windows.Forms.ListView lvLopmoi;
         private System.Windows.Forms.ColumnHeader colMahocsinhmoi;
         private System.Windows.Forms.ColumnHeader colTenhocsinhmoi;
+        private System.Windows.Forms.CheckBox cbNewStudent;
     }
 }

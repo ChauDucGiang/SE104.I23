@@ -38,7 +38,7 @@
             // lblSiso1
             // 
             this.lblSiso1.AutoSize = true;
-            this.lblSiso1.Location = new System.Drawing.Point(57, 29);
+            this.lblSiso1.Location = new System.Drawing.Point(27, 29);
             this.lblSiso1.Name = "lblSiso1";
             this.lblSiso1.Size = new System.Drawing.Size(101, 17);
             this.lblSiso1.TabIndex = 0;
@@ -56,7 +56,7 @@
             // lblSiso2
             // 
             this.lblSiso2.AutoSize = true;
-            this.lblSiso2.Location = new System.Drawing.Point(57, 102);
+            this.lblSiso2.Location = new System.Drawing.Point(27, 102);
             this.lblSiso2.Name = "lblSiso2";
             this.lblSiso2.Size = new System.Drawing.Size(86, 17);
             this.lblSiso2.TabIndex = 0;

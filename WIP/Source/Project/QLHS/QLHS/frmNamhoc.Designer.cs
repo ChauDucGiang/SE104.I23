@@ -31,11 +31,16 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmNamhoc));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.dGVNamhoc = new System.Windows.Forms.DataGridView();
+            this.colManamhoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTennamhoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bindingNavigatorNamHoc = new System.Windows.Forms.BindingNavigator(this.components);
+            this.btnAdd = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.btnAdd = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTextBoxPositionItem = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.btnDelete = new System.Windows.Forms.ToolStripButton();
@@ -45,10 +50,6 @@
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.btnExit = new System.Windows.Forms.ToolStripButton();
-            this.colManamhoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colTennamhoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dGVNamhoc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigatorNamHoc)).BeginInit();
@@ -69,6 +70,26 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Danh sách năm học";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Verdana", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label2.Location = new System.Drawing.Point(592, 94);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(196, 115);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "- Mã năm học dạng\r\n NHXXXXYYYY\r\nvới XXXX là năm\r\n đầu, YYYY là\r\nnăm sau\r\n";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label1.Location = new System.Drawing.Point(591, 45);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(100, 29);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Chú Ý:";
+            // 
             // dGVNamhoc
             // 
             this.dGVNamhoc.AllowUserToAddRows = false;
@@ -82,6 +103,20 @@
             this.dGVNamhoc.Size = new System.Drawing.Size(582, 402);
             this.dGVNamhoc.TabIndex = 1;
             // 
+            // colManamhoc
+            // 
+            this.colManamhoc.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colManamhoc.DataPropertyName = "MaNamHoc";
+            this.colManamhoc.HeaderText = "Mã năm học";
+            this.colManamhoc.Name = "colManamhoc";
+            // 
+            // colTennamhoc
+            // 
+            this.colTennamhoc.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colTennamhoc.DataPropertyName = "TenNamHoc";
+            this.colTennamhoc.HeaderText = "Tên năm học";
+            this.colTennamhoc.Name = "colTennamhoc";
+            // 
             // bindingNavigatorNamHoc
             // 
             this.bindingNavigatorNamHoc.AddNewItem = this.btnAdd;
@@ -91,6 +126,7 @@
             this.bindingNavigatorNamHoc.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bindingNavigatorSeparator,
             this.bindingNavigatorSeparator2,
+            this.toolStripTextBoxPositionItem,
             this.btnAdd,
             this.toolStripSeparator2,
             this.bindingNavigatorSeparator1,
@@ -107,10 +143,18 @@
             this.bindingNavigatorNamHoc.MoveNextItem = null;
             this.bindingNavigatorNamHoc.MovePreviousItem = null;
             this.bindingNavigatorNamHoc.Name = "bindingNavigatorNamHoc";
-            this.bindingNavigatorNamHoc.PositionItem = null;
+            this.bindingNavigatorNamHoc.PositionItem = this.toolStripTextBoxPositionItem;
             this.bindingNavigatorNamHoc.Size = new System.Drawing.Size(794, 27);
             this.bindingNavigatorNamHoc.TabIndex = 0;
             this.bindingNavigatorNamHoc.Text = "bindingNavigator1";
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.Image")));
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.RightToLeftAutoMirrorImage = true;
+            this.btnAdd.Size = new System.Drawing.Size(92, 24);
+            this.btnAdd.Text = "Add new";
             // 
             // bindingNavigatorSeparator
             // 
@@ -122,13 +166,11 @@
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
             this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 27);
             // 
-            // btnAdd
+            // toolStripTextBoxPositionItem
             // 
-            this.btnAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.Image")));
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.RightToLeftAutoMirrorImage = true;
-            this.btnAdd.Size = new System.Drawing.Size(92, 24);
-            this.btnAdd.Text = "Add new";
+            this.toolStripTextBoxPositionItem.Name = "toolStripTextBoxPositionItem";
+            this.toolStripTextBoxPositionItem.Size = new System.Drawing.Size(100, 27);
+            this.toolStripTextBoxPositionItem.Text = "0";
             // 
             // toolStripSeparator2
             // 
@@ -187,40 +229,6 @@
             this.btnExit.Text = "Exit";
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // colManamhoc
-            // 
-            this.colManamhoc.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colManamhoc.DataPropertyName = "MaNamHoc";
-            this.colManamhoc.HeaderText = "Mã năm học";
-            this.colManamhoc.Name = "colManamhoc";
-            // 
-            // colTennamhoc
-            // 
-            this.colTennamhoc.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colTennamhoc.DataPropertyName = "TenNamHoc";
-            this.colTennamhoc.HeaderText = "Tên năm học";
-            this.colTennamhoc.Name = "colTennamhoc";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Verdana", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label2.Location = new System.Drawing.Point(592, 94);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(196, 115);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "- Mã năm học dạng\r\n NHXXXXYYYY\r\nvới XXXX là năm\r\n đầu, YYYY là\r\nnăm sau\r\n";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.Location = new System.Drawing.Point(591, 45);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 29);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Chú Ý:";
-            // 
             // frmNamhoc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -263,5 +271,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colTennamhoc;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolStripTextBox toolStripTextBoxPositionItem;
     }
 }

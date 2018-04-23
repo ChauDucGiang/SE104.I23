@@ -58,5 +58,16 @@ namespace QLHS.Properties {
                 this["isCheck"] = value;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-VS6UN03;Initial Catalog=QuanLyHocSinh;Integrated Security=Tru" +
+            "e")]
+        public string ConnectionSTR {
+            get {
+                return ((string)(this["ConnectionSTR"]));
+            }
+        }
     }
 }

@@ -24,12 +24,10 @@ namespace QLHS
             UserLookAndFeel.Default.SetSkinStyle("DevExpress Style");
             //Application.Run(new frmHocsinh());
             frmLogin rad = new frmLogin();
-            //{
-            //    if (rad.ShowDialog() == DialogResult.OK)
-            //        Application.Run(new frmMain());
-            //}
-
-            Application.Run(new frmMain());
+            {
+                if (rad.ShowDialog() == DialogResult.OK)
+                    Application.Run(new frmMain());
+            }
         }
     }
 }

@@ -20,6 +20,7 @@ namespace QLHS.DAO
 
         public bool ThemHocSinh(int mahs, string hoten, string gioitinh, DateTime ngaysinh, string noisinh, string dienthoai, string email, string diachi )
         {
+            
             string query = "EXEC dbo.USP_ThemHocSinh @mahs ="+mahs+" , @hoten = N'"+hoten+"' , @gioitinh = N'"+gioitinh+"' , @ngaysinh = '"+ngaysinh+"' , @noisinh = N'"+noisinh+"' , @dienthoai = N'"+dienthoai+"' , @email = N'"+email+"' , @diachi = N'"+diachi+"' ";
             int result = DataProvider.Instance.ExecuteNonQuery(query);
             return result > 0;
@@ -48,7 +49,7 @@ namespace QLHS.DAO
         //if update succeed return true, else return false
         public bool updateHocSinh(int mahs, string hoten, string gioitinh, DateTime ngaysinh, string noisinh, string dienthoai, string email, string diachi)
         {
-            string query = "EXEC dbo.USP_UpdateHocSinh @mahs ="+mahs+" , @hoten = N'"+hoten+"', @ngaysinh = '"+ngaysinh+"' , @noisinh = N'"+noisinh+"', @dienthoai = N'"+dienthoai+"', @diachi = N'"+diachi+"', @gioitinh = N'"+gioitinh+"' , @email = N'"+email+"'";
+            string query = "EXEC dbo.USP_UpdateHocSinh @mahs ="+mahs+" , @tenhs = N'"+hoten+"', @ngaysinh = '"+ngaysinh+"' , @noisinh = N'"+noisinh+"', @sodienthoai = N'"+dienthoai+"', @diachi = N'"+diachi+"', @gioitinh = N'"+gioitinh+"' , @email = N'"+email+"'";
             int result = DataProvider.Instance.ExecuteNonQuery(query);
             return result > 0;
         }
@@ -69,6 +70,21 @@ namespace QLHS.DAO
             {
                 return 1;
             }
+        }
+        public bool CheckHSinClass(int mahs, string malop)
+        {
+            string query = "SELECT COUNT(*) FROM dbo.HocSinh,dbo.XepLop WHERE dbo.XepLop.MaHS=dbo.HocSinh.MaHS AND HocSinh.MaHS=" + mahs + " AND MaLop= N'" + malop + "'";
+            int result = Int32.Parse(DataProvider.Instance.ExecuteSchalar(query).ToString());
+            return result > 0;
+        }
+        public bool CheckNameStudentByMaHS(string name, int mahs)
+        {
+            string query = "SELECT HoTen FROM HocSinh WHERE MaHS =" + mahs;
+
+            string hoten = DataProvider.Instance.ExecuteSchalar(query).ToString();
+            if (hoten.Equals(name))
+                return true;
+            return false;
         }
     }
 }

@@ -77,6 +77,7 @@
             this.btGiaoVien = new DevExpress.XtraBars.BarButtonItem();
             this.btNhapDiemChung = new DevExpress.XtraBars.BarButtonItem();
             this.btNhapDiemRieng = new DevExpress.XtraBars.BarButtonItem();
+            this.btmQuiDInhCHung = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -222,10 +223,11 @@
             this.barButtonItem4,
             this.btGiaoVien,
             this.btNhapDiemChung,
-            this.btNhapDiemRieng});
+            this.btNhapDiemRieng,
+            this.btmQuiDInhCHung});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.ribbonControl1.MaxItemId = 62;
+            this.ribbonControl1.MaxItemId = 63;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1,
@@ -437,6 +439,7 @@
             this.btnDSHS.Name = "btnDSHS";
             this.btnDSHS.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
             | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
+            this.btnDSHS.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnDSHS_ItemClick);
             // 
             // btnDSGV
             // 
@@ -446,6 +449,7 @@
             this.btnDSGV.Name = "btnDSGV";
             this.btnDSGV.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
             | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
+            this.btnDSGV.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnDSGV_ItemClick);
             // 
             // btnDSlop
             // 
@@ -455,6 +459,7 @@
             this.btnDSlop.Name = "btnDSlop";
             this.btnDSlop.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
             | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
+            this.btnDSlop.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnDSlop_ItemClick);
             // 
             // btnTracuuGV
             // 
@@ -517,6 +522,7 @@
             this.btnQDtuoi.Name = "btnQDtuoi";
             this.btnQDtuoi.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
             | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
+            this.btnQDtuoi.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnQDtuoi_ItemClick);
             // 
             // btnQDsiso
             // 
@@ -526,6 +532,7 @@
             this.btnQDsiso.Name = "btnQDsiso";
             this.btnQDsiso.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
             | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
+            this.btnQDsiso.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnQDsiso_ItemClick);
             // 
             // btnQDthangdiem
             // 
@@ -535,6 +542,7 @@
             this.btnQDthangdiem.Name = "btnQDthangdiem";
             this.btnQDthangdiem.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
             | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
+            this.btnQDthangdiem.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnQDthangdiem_ItemClick);
             // 
             // btnThongtintruonghoc
             // 
@@ -626,6 +634,16 @@
             this.btNhapDiemRieng.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
             | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
             this.btNhapDiemRieng.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btNhapDiemRieng_ItemClick);
+            // 
+            // btmQuiDInhCHung
+            // 
+            this.btmQuiDInhCHung.Caption = "Quy định chung";
+            this.btmQuiDInhCHung.Id = 62;
+            this.btmQuiDInhCHung.ImageOptions.Image = global::QLHS.Properties.Resources.huongdan1;
+            this.btmQuiDInhCHung.Name = "btmQuiDInhCHung";
+            this.btmQuiDInhCHung.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
+            | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
+            this.btmQuiDInhCHung.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btmQuiDInhCHung_ItemClick);
             // 
             // ribbonPage1
             // 
@@ -746,13 +764,14 @@
             // 
             // ribbonPageGroup11
             // 
+            this.ribbonPageGroup11.ItemLinks.Add(this.btmQuiDInhCHung);
             this.ribbonPageGroup11.ItemLinks.Add(this.btnQDtuoi);
             this.ribbonPageGroup11.ItemLinks.Add(this.btnQDsiso);
             this.ribbonPageGroup11.ItemLinks.Add(this.btnQDthangdiem);
             this.ribbonPageGroup11.ItemLinks.Add(this.btnThongtintruonghoc);
             this.ribbonPageGroup11.ItemsLayout = DevExpress.XtraBars.Ribbon.RibbonPageGroupItemsLayout.OneRow;
             this.ribbonPageGroup11.Name = "ribbonPageGroup11";
-            this.ribbonPageGroup11.Text = "ribbonPageGroup11";
+            this.ribbonPageGroup11.Text = "Quy Định";
             // 
             // ribbonPage4
             // 
@@ -816,7 +835,6 @@
             this.Appearance.Options.UseFont = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1114, 580);
             this.Controls.Add(this.ribbonControl1);
             this.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold);
@@ -828,6 +846,7 @@
             this.ShowMdiChildCaptionInParentTitle = true;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "QUẢN LÝ HỌC SINH";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(popupMenuHome)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgCL1)).EndInit();
@@ -909,6 +928,7 @@
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup13;
         private DevExpress.XtraBars.BarButtonItem btNhapDiemChung;
         private DevExpress.XtraBars.BarButtonItem btNhapDiemRieng;
+        private DevExpress.XtraBars.BarButtonItem btmQuiDInhCHung;
     }
 }
 

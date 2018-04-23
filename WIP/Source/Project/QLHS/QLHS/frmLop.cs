@@ -14,6 +14,7 @@ namespace QLHS
 {
     public partial class frmLop : Form
     {
+        private string User = "";
         public frmLop()
         {
             InitializeComponent();
@@ -23,9 +24,19 @@ namespace QLHS
             loadNHintoCombobox();
         }
         #region Methods
+        public void SaveU(string u)
+        {
+            User = u;
+            string type = AccountDAO.Instance.GetType(User);
+            if (!type.Equals("admin"))
+            {
+                navAddClass.Enabled = false;
+                bindingNavigatorClass.Enabled = false;
+            }
+    }
         void loadClass()
         {
-            dGVLop.DataSource=DataProvider.Instance.ExecuteQuery("SELECT MaLop, TenLop, MaKhoiLop,NamHoc FROM Lop");
+            dGVLop.DataSource = DataProvider.Instance.ExecuteQuery("SELECT MaLop, TenLop, TenKhoiLop, TenGV, TenNamHoc FROM dbo.Lop, dbo.GiaoVien, dbo.NamHoc, dbo.KhoiLop WHERE dbo.Lop.MaKhoiLop = dbo.KhoiLop.MaKhoiLop AND dbo.Lop.GVCN = dbo.GiaoVien.MaGV AND dbo.Lop.NamHoc = NamHoc.MaNamHoc");
         }
 
         void loadGVintoCombobox()
@@ -33,7 +44,7 @@ namespace QLHS
             List<GiaoVien> listGV = GiaoVienDAO.Instance.getListGV();
             cmbGiaovienchunhiem.DataSource = listGV;
             cmbGiaovienchunhiem.DisplayMember = "TenGV";
-            
+
         }
 
         void loadKLintoCombobox()
@@ -49,8 +60,20 @@ namespace QLHS
             cmbNamHoc.DataSource = listNH;
             cmbNamHoc.DisplayMember = "TenNamHoc";
         }
+        public List<NamHoc> getListNamHoc()
+        {
+            List<NamHoc> list = new List<NamHoc>();
 
-        
+            DataTable data = DataProvider.Instance.ExecuteQuery("SELECT * FROM NamHoc");
+
+            foreach (DataRow item in data.Rows)
+            {
+                NamHoc nh = new NamHoc(item);
+                list.Add(nh);
+            }
+            return list;
+        }
+
 
         #endregion
 
@@ -67,6 +90,7 @@ namespace QLHS
 
         private void btnLuu_Click(object sender, EventArgs e)
         {
+            loadClass();
             string maLop = txtMalop.Text;
             string tenLop = txtTenlop.Text;
             int siSo = Convert.ToInt32(txtSiso.Text);
@@ -81,7 +105,7 @@ namespace QLHS
             }
             else
             {
-                MessageBox.Show("Lớp đã tồn tại!","Thông báo");
+                MessageBox.Show("Lớp đã tồn tại!", "Thông báo", MessageBoxButtons.OK);
             }
             loadClass();
         }
@@ -90,12 +114,13 @@ namespace QLHS
             string inputData = txtNhapthongtincantimkiem.Text;
             if (radTimtheomalop.Checked)
             {
-                if (ClassDAO.Instance.getStatusClassbyMaLop(inputData)==false) {
-                    dGVLop.DataSource = DataProvider.Instance.ExecuteQuery("SELECT MaLop, TenLop, NamHoc, MaKhoiLop FROM Lop WHERE MaLop = " + inputData);
+                if (ClassDAO.Instance.getStatusClassbyMaLop(inputData) == false)
+                {
+                    dGVLop.DataSource = DataProvider.Instance.ExecuteQuery("SELECT MaLop,TenLop,TenKhoiLop,TenGV,TenNamHoc FROM dbo.Lop, dbo.GiaoVien, dbo.NamHoc, dbo.KhoiLop WHERE dbo.Lop.MaKhoiLop=dbo.KhoiLop.MaKhoiLop AND dbo.Lop.GVCN = dbo.GiaoVien.MaGV AND dbo.Lop.NamHoc = NamHoc.MaNamHoc AND MaLop = " + inputData);
                 }
                 else
                 {
-                    MessageBox.Show("Lớp không tồn tại !", "Thông báo");
+                    MessageBox.Show("Lớp không tồn tại !", "Thông báo", MessageBoxButtons.OK);
                 }
 
 
@@ -106,20 +131,38 @@ namespace QLHS
                 if (ClassDAO.Instance.getStatusClassbyTenLop(inputData) == false)
                 {
 
-                    dGVLop.DataSource = DataProvider.Instance.ExecuteQuery("SELECT MaLop, TenLop, NamHoc, MaKhoiLop FROM Lop WHERE TenLop=N'" + inputData+"'");
+                    dGVLop.DataSource = DataProvider.Instance.ExecuteQuery("SELECT MaLop,TenLop,TenKhoiLop,TenGV,TenNamHoc FROM dbo.Lop, dbo.GiaoVien, dbo.NamHoc, dbo.KhoiLop WHERE dbo.Lop.MaKhoiLop=dbo.KhoiLop.MaKhoiLop AND dbo.Lop.GVCN = dbo.GiaoVien.MaGV AND dbo.Lop.NamHoc = NamHoc.MaNamHoc AND TenLop =N'" + inputData + "'");
                 }
                 else
                 {
-                    MessageBox.Show("Lớp không tồn tại !", "Thông báo");
+                    MessageBox.Show("Lớp không tồn tại !", "Thông báo", MessageBoxButtons.OK);
                 }
+            }
+            if (!radTimtheomalop.Checked && !radTimtheotenlop.Checked)
+            {
+                MessageBox.Show("Bạn quên chọn thông tin tìm kiếm!", "Thông báo", MessageBoxButtons.OK);
             }
 
         }
 
         #endregion
         #region Func
-
+        //public void SaveU(TextBox txb)
+        //{
+        //    this.User = txb.Text;
+        //    string type = AccountDAO.Instance.GetType(User);
+        //    if (!type.Equals("admin"))
+        //    {
+        //        navAddClass.Enabled = false;
+        //        btnDelete.Enabled = false;
+        //        btnLuu.Enabled = false;
+        //    }
+        //}
         #endregion
 
+        private void navigationPane1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

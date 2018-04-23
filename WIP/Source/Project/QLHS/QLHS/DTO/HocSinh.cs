@@ -43,7 +43,7 @@ namespace QLHS.DTO
             this.MaHS = (int)row["MaHS"];
             this.HoTen = row["HoTen"].ToString();
             this.GioiTinh = row["GioiTinh"].ToString();
-            this.NgaySinh = Convert.ToDateTime(row["NgaySinh"]);
+            this.NgaySinh = Convert.ToDateTime(row["NgSinh"]);
             this.NoiSinh = row["NoiSinh"].ToString();
             this.DienThoai = row["DienThoai"].ToString();
             this.Email = row["Email"].ToString();

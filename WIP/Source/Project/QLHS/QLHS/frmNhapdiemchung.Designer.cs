@@ -37,7 +37,7 @@
             this.lblMonhoc1 = new System.Windows.Forms.Label();
             this.lblHocky1 = new System.Windows.Forms.Label();
             this.lblNamhoc1 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.cmbMonHoc1 = new System.Windows.Forms.ComboBox();
             this.cmbHocky1 = new System.Windows.Forms.ComboBox();
             this.cmbLop1 = new System.Windows.Forms.ComboBox();
             this.cmbNamhoc1 = new System.Windows.Forms.ComboBox();
@@ -53,13 +53,7 @@
             this.cmbNamhoc2 = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dGVNhapdiemchung = new System.Windows.Forms.DataGridView();
-            this.colMahocsinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colTenhocsinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDiemmieng = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDiem15phut = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDiem45phut = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDiemthi = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigatorBangDiem = new System.Windows.Forms.BindingNavigator(this.components);
             this.btnDelete = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
@@ -69,14 +63,20 @@
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.btnExit = new System.Windows.Forms.ToolStripButton();
+            this.colMahocsinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTenhocsinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDiemmieng = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDiem15phut = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDiem45phut = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDiemthi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).BeginInit();
             this.navigationPane1.SuspendLayout();
             this.navigationPage1.SuspendLayout();
             this.navigationPage2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dGVNhapdiemchung)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
-            this.bindingNavigator1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigatorBangDiem)).BeginInit();
+            this.bindingNavigatorBangDiem.SuspendLayout();
             this.SuspendLayout();
             // 
             // navigationPane1
@@ -102,7 +102,7 @@
             this.navigationPage1.Controls.Add(this.lblMonhoc1);
             this.navigationPage1.Controls.Add(this.lblHocky1);
             this.navigationPage1.Controls.Add(this.lblNamhoc1);
-            this.navigationPage1.Controls.Add(this.comboBox4);
+            this.navigationPage1.Controls.Add(this.cmbMonHoc1);
             this.navigationPage1.Controls.Add(this.cmbHocky1);
             this.navigationPage1.Controls.Add(this.cmbLop1);
             this.navigationPage1.Controls.Add(this.cmbNamhoc1);
@@ -154,13 +154,14 @@
             this.lblNamhoc1.TabIndex = 1;
             this.lblNamhoc1.Text = "Năm học";
             // 
-            // comboBox4
+            // cmbMonHoc1
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(4, 237);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(121, 24);
-            this.comboBox4.TabIndex = 0;
+            this.cmbMonHoc1.FormattingEnabled = true;
+            this.cmbMonHoc1.Location = new System.Drawing.Point(4, 237);
+            this.cmbMonHoc1.Name = "cmbMonHoc1";
+            this.cmbMonHoc1.Size = new System.Drawing.Size(121, 24);
+            this.cmbMonHoc1.TabIndex = 0;
+            this.cmbMonHoc1.SelectedIndexChanged += new System.EventHandler(this.cmbMonHoc1_SelectedIndexChanged);
             // 
             // cmbHocky1
             // 
@@ -169,6 +170,7 @@
             this.cmbHocky1.Name = "cmbHocky1";
             this.cmbHocky1.Size = new System.Drawing.Size(121, 24);
             this.cmbHocky1.TabIndex = 0;
+            this.cmbHocky1.SelectedIndexChanged += new System.EventHandler(this.cmbHocky1_SelectedIndexChanged);
             // 
             // cmbLop1
             // 
@@ -177,6 +179,7 @@
             this.cmbLop1.Name = "cmbLop1";
             this.cmbLop1.Size = new System.Drawing.Size(121, 24);
             this.cmbLop1.TabIndex = 0;
+            this.cmbLop1.SelectedIndexChanged += new System.EventHandler(this.cmbLop1_SelectedIndexChanged);
             // 
             // cmbNamhoc1
             // 
@@ -185,6 +188,7 @@
             this.cmbNamhoc1.Name = "cmbNamhoc1";
             this.cmbNamhoc1.Size = new System.Drawing.Size(121, 24);
             this.cmbNamhoc1.TabIndex = 0;
+            this.cmbNamhoc1.SelectedIndexChanged += new System.EventHandler(this.cmbNamhoc1_SelectedIndexChanged);
             // 
             // navigationPage2
             // 
@@ -281,7 +285,7 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.dGVNhapdiemchung);
-            this.groupBox1.Controls.Add(this.bindingNavigator1);
+            this.groupBox1.Controls.Add(this.bindingNavigatorBangDiem);
             this.groupBox1.Location = new System.Drawing.Point(320, 13);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(674, 435);
@@ -307,43 +311,13 @@
             this.dGVNhapdiemchung.Size = new System.Drawing.Size(668, 387);
             this.dGVNhapdiemchung.TabIndex = 1;
             // 
-            // colMahocsinh
+            // bindingNavigatorBangDiem
             // 
-            this.colMahocsinh.HeaderText = "Mã học sinh";
-            this.colMahocsinh.Name = "colMahocsinh";
-            // 
-            // colTenhocsinh
-            // 
-            this.colTenhocsinh.HeaderText = "Tên học sinh";
-            this.colTenhocsinh.Name = "colTenhocsinh";
-            // 
-            // colDiemmieng
-            // 
-            this.colDiemmieng.HeaderText = "Điểm miệng";
-            this.colDiemmieng.Name = "colDiemmieng";
-            // 
-            // colDiem15phut
-            // 
-            this.colDiem15phut.HeaderText = "Điểm 15 phút";
-            this.colDiem15phut.Name = "colDiem15phut";
-            // 
-            // colDiem45phut
-            // 
-            this.colDiem45phut.HeaderText = "Điểm 45 phút";
-            this.colDiem45phut.Name = "colDiem45phut";
-            // 
-            // colDiemthi
-            // 
-            this.colDiemthi.HeaderText = "Điểm thi";
-            this.colDiemthi.Name = "colDiemthi";
-            // 
-            // bindingNavigator1
-            // 
-            this.bindingNavigator1.AddNewItem = null;
-            this.bindingNavigator1.CountItem = null;
-            this.bindingNavigator1.DeleteItem = this.btnDelete;
-            this.bindingNavigator1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.bindingNavigator1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bindingNavigatorBangDiem.AddNewItem = null;
+            this.bindingNavigatorBangDiem.CountItem = null;
+            this.bindingNavigatorBangDiem.DeleteItem = this.btnDelete;
+            this.bindingNavigatorBangDiem.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.bindingNavigatorBangDiem.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bindingNavigatorSeparator,
             this.bindingNavigatorSeparator2,
             this.btnDelete,
@@ -353,16 +327,16 @@
             this.toolStripSeparator4,
             this.toolStripSeparator5,
             this.btnExit});
-            this.bindingNavigator1.Location = new System.Drawing.Point(3, 18);
-            this.bindingNavigator1.MoveFirstItem = null;
-            this.bindingNavigator1.MoveLastItem = null;
-            this.bindingNavigator1.MoveNextItem = null;
-            this.bindingNavigator1.MovePreviousItem = null;
-            this.bindingNavigator1.Name = "bindingNavigator1";
-            this.bindingNavigator1.PositionItem = null;
-            this.bindingNavigator1.Size = new System.Drawing.Size(668, 27);
-            this.bindingNavigator1.TabIndex = 0;
-            this.bindingNavigator1.Text = "bindingNavigator1";
+            this.bindingNavigatorBangDiem.Location = new System.Drawing.Point(3, 18);
+            this.bindingNavigatorBangDiem.MoveFirstItem = null;
+            this.bindingNavigatorBangDiem.MoveLastItem = null;
+            this.bindingNavigatorBangDiem.MoveNextItem = null;
+            this.bindingNavigatorBangDiem.MovePreviousItem = null;
+            this.bindingNavigatorBangDiem.Name = "bindingNavigatorBangDiem";
+            this.bindingNavigatorBangDiem.PositionItem = null;
+            this.bindingNavigatorBangDiem.Size = new System.Drawing.Size(668, 27);
+            this.bindingNavigatorBangDiem.TabIndex = 0;
+            this.bindingNavigatorBangDiem.Text = "bindingNavigator1";
             // 
             // btnDelete
             // 
@@ -399,6 +373,7 @@
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(64, 24);
             this.btnSave.Text = "Save";
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // toolStripSeparator4
             // 
@@ -418,6 +393,38 @@
             this.btnExit.Size = new System.Drawing.Size(57, 24);
             this.btnExit.Text = "Exit";
             // 
+            // colMahocsinh
+            // 
+            this.colMahocsinh.DataPropertyName = "MaHS";
+            this.colMahocsinh.HeaderText = "Mã học sinh";
+            this.colMahocsinh.Name = "colMahocsinh";
+            // 
+            // colTenhocsinh
+            // 
+            this.colTenhocsinh.DataPropertyName = "HoTen";
+            this.colTenhocsinh.HeaderText = "Tên học sinh";
+            this.colTenhocsinh.Name = "colTenhocsinh";
+            // 
+            // colDiemmieng
+            // 
+            this.colDiemmieng.HeaderText = "Điểm miệng";
+            this.colDiemmieng.Name = "colDiemmieng";
+            // 
+            // colDiem15phut
+            // 
+            this.colDiem15phut.HeaderText = "Điểm 15 phút";
+            this.colDiem15phut.Name = "colDiem15phut";
+            // 
+            // colDiem45phut
+            // 
+            this.colDiem45phut.HeaderText = "Điểm 45 phút";
+            this.colDiem45phut.Name = "colDiem45phut";
+            // 
+            // colDiemthi
+            // 
+            this.colDiemthi.HeaderText = "Điểm thi";
+            this.colDiemthi.Name = "colDiemthi";
+            // 
             // frmNhapdiemchung
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -429,6 +436,7 @@
             this.Name = "frmNhapdiemchung";
             this.Text = "Nhập điểm lớp";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.frmNhapdiemchung_Load);
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).EndInit();
             this.navigationPane1.ResumeLayout(false);
             this.navigationPage1.ResumeLayout(false);
@@ -438,9 +446,9 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dGVNhapdiemchung)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).EndInit();
-            this.bindingNavigator1.ResumeLayout(false);
-            this.bindingNavigator1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigatorBangDiem)).EndInit();
+            this.bindingNavigatorBangDiem.ResumeLayout(false);
+            this.bindingNavigatorBangDiem.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -455,7 +463,7 @@
         private System.Windows.Forms.Label lblMonhoc1;
         private System.Windows.Forms.Label lblHocky1;
         private System.Windows.Forms.Label lblNamhoc1;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox cmbMonHoc1;
         private System.Windows.Forms.ComboBox cmbHocky1;
         private System.Windows.Forms.ComboBox cmbLop1;
         private System.Windows.Forms.ComboBox cmbNamhoc1;
@@ -469,13 +477,7 @@
         private System.Windows.Forms.ComboBox cmbNamhoc2;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridView dGVNhapdiemchung;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colMahocsinh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colTenhocsinh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colDiemmieng;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colDiem15phut;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colDiem45phut;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colDiemthi;
-        private System.Windows.Forms.BindingNavigator bindingNavigator1;
+        private System.Windows.Forms.BindingNavigator bindingNavigatorBangDiem;
         private System.Windows.Forms.ToolStripButton btnDelete;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
@@ -486,5 +488,11 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripButton btnExit;
         private System.Windows.Forms.Label lblLop2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colMahocsinh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colTenhocsinh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colDiemmieng;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colDiem15phut;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colDiem45phut;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colDiemthi;
     }
 }

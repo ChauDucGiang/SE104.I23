@@ -30,11 +30,13 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.btEditAge = new System.Windows.Forms.Button();
             this.txtDotuoitoida = new System.Windows.Forms.TextBox();
             this.lblDotuoitoida = new System.Windows.Forms.Label();
             this.txtDotuoitoithieu = new System.Windows.Forms.TextBox();
             this.lblDotuoitoithieu = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.btnCapNhatSiSo = new System.Windows.Forms.Button();
             this.txtSisotoida = new System.Windows.Forms.TextBox();
             this.lblSisotoida = new System.Windows.Forms.Label();
             this.txtSisotoithieu = new System.Windows.Forms.TextBox();
@@ -68,6 +70,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.btEditAge);
             this.tabPage1.Controls.Add(this.txtDotuoitoida);
             this.tabPage1.Controls.Add(this.lblDotuoitoida);
             this.tabPage1.Controls.Add(this.txtDotuoitoithieu);
@@ -80,9 +83,19 @@
             this.tabPage1.Text = "Quy định độ tuổi";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // btEditAge
+            // 
+            this.btEditAge.Location = new System.Drawing.Point(423, 113);
+            this.btEditAge.Name = "btEditAge";
+            this.btEditAge.Size = new System.Drawing.Size(109, 23);
+            this.btEditAge.TabIndex = 14;
+            this.btEditAge.Text = "Cập nhật";
+            this.btEditAge.UseVisualStyleBackColor = true;
+            this.btEditAge.Click += new System.EventHandler(this.btEditAge_Click);
+            // 
             // txtDotuoitoida
             // 
-            this.txtDotuoitoida.Location = new System.Drawing.Point(214, 75);
+            this.txtDotuoitoida.Location = new System.Drawing.Point(247, 75);
             this.txtDotuoitoida.Name = "txtDotuoitoida";
             this.txtDotuoitoida.Size = new System.Drawing.Size(184, 22);
             this.txtDotuoitoida.TabIndex = 12;
@@ -98,7 +111,7 @@
             // 
             // txtDotuoitoithieu
             // 
-            this.txtDotuoitoithieu.Location = new System.Drawing.Point(214, 37);
+            this.txtDotuoitoithieu.Location = new System.Drawing.Point(247, 34);
             this.txtDotuoitoithieu.Name = "txtDotuoitoithieu";
             this.txtDotuoitoithieu.Size = new System.Drawing.Size(184, 22);
             this.txtDotuoitoithieu.TabIndex = 13;
@@ -114,6 +127,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.btnCapNhatSiSo);
             this.tabPage2.Controls.Add(this.txtSisotoida);
             this.tabPage2.Controls.Add(this.lblSisotoida);
             this.tabPage2.Controls.Add(this.txtSisotoithieu);
@@ -121,10 +135,20 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(515, 132);
+            this.tabPage2.Size = new System.Drawing.Size(551, 142);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Quy định sĩ số";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // btnCapNhatSiSo
+            // 
+            this.btnCapNhatSiSo.Location = new System.Drawing.Point(417, 116);
+            this.btnCapNhatSiSo.Name = "btnCapNhatSiSo";
+            this.btnCapNhatSiSo.Size = new System.Drawing.Size(109, 23);
+            this.btnCapNhatSiSo.TabIndex = 10;
+            this.btnCapNhatSiSo.Text = "Cập nhật";
+            this.btnCapNhatSiSo.UseVisualStyleBackColor = true;
+            this.btnCapNhatSiSo.Click += new System.EventHandler(this.btnCapNhatSiSo_Click);
             // 
             // txtSisotoida
             // 
@@ -165,7 +189,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 25);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(515, 132);
+            this.tabPage3.Size = new System.Drawing.Size(551, 142);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Quy định thang điểm";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -195,7 +219,7 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 25);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(515, 132);
+            this.tabPage4.Size = new System.Drawing.Size(551, 142);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Thông tin trường học";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -215,7 +239,6 @@
             this.lblDiachi.Size = new System.Drawing.Size(51, 17);
             this.lblDiachi.TabIndex = 0;
             this.lblDiachi.Text = "Địa chỉ";
-            this.lblDiachi.Click += new System.EventHandler(this.lblDiachi_Click);
             // 
             // txtTentruong
             // 
@@ -276,5 +299,7 @@
         private System.Windows.Forms.Label lblDiachi;
         private System.Windows.Forms.TextBox txtTentruong;
         private System.Windows.Forms.Label lblTentruong;
+        private System.Windows.Forms.Button btnCapNhatSiSo;
+        private System.Windows.Forms.Button btEditAge;
     }
 }
