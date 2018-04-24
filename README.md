@@ -10,11 +10,15 @@ Bắt đầu
 Để cài đặt và sử dụng chương trình Quản lý học sinh cần có: 
 Hệ điều hành Windows 
 .Net Framework 4.0 
+Microsoft SQL Server 2017
+Devexpress 17.2
 
 
 Xây dựng với 
-Microsoft Visual Studio 2015 
-Mircrosoft SQLSever 2014. 
+Microsoft Visual Studio 2017 
+Mircrosoft SQLSever 2017
+Devexpress 17.2
+
 
 Phiên bản 
 Phiên bản hiện tại là 1.0 
@@ -26,6 +30,7 @@ Nguyễn Xuân Bắc
 Phạm Thanh Đức 
 
 Lời cảm ơn 
+
 Thầy Nguyễn Công Hoa- giáo viên lý thuyết lớp SE104.I23
 
 Thầy Thái Hải Dương- giáo viên thực hành lớp SE104.I23 
