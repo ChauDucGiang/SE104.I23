@@ -7,26 +7,19 @@ Với sự trỗi dậy của cách mạng công nghiệp 4.0, nhưng ở Việt
 Bắt đầu
 
 Đồ án được viết bằng C#, sử dụng hệ quản trị cơ sở dữ liệu SQLServer 
-
 Điều kiện tiên quyết 
-
 Để cài đặt và sử dụng chương trình Quản lý học sinh cần có: 
 
 Hệ điều hành Windows 
-
 .Net Framework 4.0 
-
 Microsoft SQL Server 2017
-
 Devexpress 17.2
 
 
 
 Xây dựng với 
 Microsoft Visual Studio 2017 
-
 Mircrosoft SQLSever 2017
-
 Devexpress 17.2
 
 
