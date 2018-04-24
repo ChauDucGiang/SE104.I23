@@ -1,4 +1,4 @@
-﻿using QLHS.DTO;
+using QLHS.DTO;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -39,6 +39,20 @@ namespace QLHS.DAO
                 return false;
 
             return true;
+        }
+
+        public bool updateClass(string malop, string tenlop, string tenkhoilop, string tengiaovien, string tennamhoc)
+        {
+            string query = "EXEC dbo.USP_UpdateLop @malop = '"+malop+"' , @tenlop = N'"+tenlop+"', @tenkhoilop = N'"+tenkhoilop+"' , @tengiaovien = N'"+tengiaovien+"', @tennamhoc = N'"+tennamhoc+"'";
+            int re = DataProvider.Instance.ExecuteNonQuery(query);
+            return re > 0;
+        }
+
+        public bool deleteClass(string malop)
+        {
+            string query = "EXEC dbo.USP_DeleteLop @malop = " + malop;
+            int re = DataProvider.Instance.ExecuteNonQuery(query);
+            return re > 0;
         }
         //public List<ClassDTO> getClass(string malop)
         //{
