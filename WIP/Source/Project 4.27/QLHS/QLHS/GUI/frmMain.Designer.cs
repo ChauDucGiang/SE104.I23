@@ -137,6 +137,7 @@
             this.btnDoimatkhau.ImageOptions.ImageIndex = 42;
             this.btnDoimatkhau.ImageOptions.LargeImage = global::QLHS.Properties.Resources.pass;
             this.btnDoimatkhau.Name = "btnDoimatkhau";
+            this.btnDoimatkhau.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnDoimatkhau_ItemClick);
             // 
             // btnSaoluudulieu
             // 
@@ -238,7 +239,7 @@
             this.ribbonControl1.SetPopupContextMenu(this.ribbonControl1, popupMenuHome);
             this.ribbonControl1.PopupShowMode = DevExpress.XtraBars.PopupShowMode.Inplace;
             this.ribbonControl1.ShowToolbarCustomizeItem = false;
-            this.ribbonControl1.Size = new System.Drawing.Size(1114, 179);
+            this.ribbonControl1.Size = new System.Drawing.Size(1114, 142);
             this.ribbonControl1.Toolbar.ShowCustomizeItem = false;
             // 
             // imgCL1
@@ -833,7 +834,7 @@
             this.Appearance.BackColor = System.Drawing.Color.Teal;
             this.Appearance.Options.UseBackColor = true;
             this.Appearance.Options.UseFont = true;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1114, 580);
             this.Controls.Add(this.ribbonControl1);

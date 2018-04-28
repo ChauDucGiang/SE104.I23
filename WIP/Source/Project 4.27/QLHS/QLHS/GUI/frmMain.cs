@@ -180,6 +180,12 @@ namespace QLHS
             DSLop ds = new DSLop();
             ds.ShowPreviewDialog();
         }
+        private void btnDoimatkhau_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmDoimatkhau f =  new frmDoimatkhau();
+            f.ShowDialog();
+            this.Hide();
+        }
         #endregion
 
         #region Func
@@ -208,6 +214,7 @@ namespace QLHS
             }
             return false;
         }
+
 
 
 

@@ -20,5 +20,12 @@ namespace QLHS.DAO
             string Type = DataProvider.Instance.ExecuteSchalar(query).ToString();
             return Type;
         }
+        public bool PasswordChange(string username, string password)
+        {
+            string query = "EXEC dbo.DoiMatKhau @username = N'" + username + "' , @pasword = N'" + password + "'";
+            int re = DataProvider.Instance.ExecuteNonQuery(query);
+            return re > 0;
+        }
+
     }
 }
