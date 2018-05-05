@@ -189,7 +189,7 @@ namespace QLHS
             if (keyData == Keys.Enter)
             {
                 if (dGVLop.CurrentRow == null) return true;
-                dGVLop.CurrentCell = dGVLop.CurrentRow.Cells["colMalop"];
+                dGVLop.CurrentCell = dGVLop.CurrentRow.Cells["MaLop"];
                 return true;
             }
             return base.ProcessCmdKey(ref msg, keyData);

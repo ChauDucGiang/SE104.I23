@@ -119,16 +119,24 @@ namespace QLHS
             string magv = dGVGiaovien.CurrentRow.Cells["colMagiaovien"].Value.ToString();
             if (magv != "")
             {
-                if (GiaoVienDAO.Instance.XoaGiaoVien(magv))
+                if (ClassDAO.Instance.CheckGVCNinClass(magv) == false)
                 {
-                    MessageBox.Show("Xóa thành công", "Thông báo");
-                    LoadGiaoVien();
-                    Reset.ResetAllControls(navigationPaneAddGV);
-                    Reset.ResetAllControls(navigationPage2);
+                    if (GiaoVienDAO.Instance.XoaGiaoVien(magv))
+                    {
+                        MessageBox.Show("Xóa thành công", "Thông báo");
+                        LoadGiaoVien();
+                    }
+                    else MessageBox.Show("Xóa thất bại", "Thông báo");
                 }
-                else MessageBox.Show("Xóa thất bại", "Thông báo");
+                else MessageBox.Show("Giáo viên hiện tại đã chủ nhiệm không thể xóa", "Thông báo");
             }
             else MessageBox.Show("Trống rồi sao xóa đây !!!", "Thông báo");
+            Reset.ResetFocus(txtMagiaovien, txtNhapthongtincantimkiem);
+        }
+        private void navigationPaneAddGV_Click(object sender, EventArgs e)
+        {
+            LoadGiaoVien();
+            Reset.ResetAllControls(navigationPage2);
             Reset.ResetFocus(txtMagiaovien, txtNhapthongtincantimkiem);
         }
         #endregion
@@ -146,7 +154,7 @@ namespace QLHS
             string tengv = CheckType.chuanHoaTen(dGVGiaovien.CurrentRow.Cells["colTengiaovien"].Value.ToString());
             string sdt = dGVGiaovien.CurrentRow.Cells["colDienthoai"].Value.ToString();
             string diachi = dGVGiaovien.CurrentRow.Cells["colDiachi"].Value.ToString();
-            string mamh = GiaoVienDAO.Instance.ChangeTenMontoMaMH(CheckType.chuanHoaMa(dGVGiaovien.CurrentRow.Cells["colTenmonhoc"].Value.ToString()));
+            string mamh = GiaoVienDAO.Instance.ChangeTenMontoMaMH(dGVGiaovien.CurrentRow.Cells["colTenmonhoc"].Value.ToString());
 
             if (CheckType.Instance.CheckMaGV(magv) == false)
             {
@@ -203,11 +211,6 @@ namespace QLHS
 
         #endregion
 
-        private void navigationPaneAddGV_Click(object sender, EventArgs e)
-        {
-            LoadGiaoVien();
-            Reset.ResetAllControls(navigationPage2);
-            Reset.ResetFocus(txtMagiaovien, txtNhapthongtincantimkiem);
-        }
+
     }
 }
