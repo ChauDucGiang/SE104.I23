@@ -40,6 +40,14 @@ namespace QLHS.DAO
 
             return true;
         }
+        public bool getGVCNinClass(string malop)
+        {
+            string query = "SELECT GVCN FROM Lop WHERE malop= '" + malop+"'";
+            string re = (string)DataProvider.Instance.ExecuteSchalar(query);
+            if (re != null) // co GV
+                return true;
+            return false; // Khong co GV
+        }
         //public List<ClassDTO> getClass(string malop)
         //{
         //    List<ClassDTO> listCL = new List<ClassDTO>();
@@ -63,7 +71,7 @@ namespace QLHS.DAO
         }
         public bool deleteClass(string malop)
         {
-            string query = "EXEC dbo.USP_DeleteLop @malop = " + malop;
+            string query = "EXEC dbo.DeleteClass @malop =" + malop;
             int re = DataProvider.Instance.ExecuteNonQuery(query);
             return re > 0;
         }

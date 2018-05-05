@@ -162,7 +162,7 @@ namespace QLHS
         private void btnDelete_Click(object sender, EventArgs e)
         {
             string ml = dGVLop.CurrentRow.Cells["MaLop"].Value.ToString();
-            if (ClassDAO.Instance.deleteClass(ml))
+            if (ClassDAO.Instance.deleteClass(ml) && !ClassDAO.Instance.getGVCNinClass(ml))
             {
                 MessageBox.Show("Đã xóa lớp có mã " + ml);
                 loadClass();
@@ -170,6 +170,8 @@ namespace QLHS
                 Reset.ResetAllControls(navigationPage2);
                 Reset.ResetFocus(txtMalop, txtNhapthongtincantimkiem);
             }
+            else if (ClassDAO.Instance.getGVCNinClass(ml))
+                MessageBox.Show("Không thể xóa lớp đã có giáo viên !", "Thông báo", MessageBoxButtons.OK);
         }
         #endregion
         #region Func

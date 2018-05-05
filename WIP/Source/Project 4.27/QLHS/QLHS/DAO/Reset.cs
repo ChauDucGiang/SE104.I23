@@ -57,5 +57,15 @@ namespace QLHS.DAO
                 textbox1.Focus();
             }
         }
+
+        //public static void ResetData (Control f)
+        //{
+        //    foreach(Control item in f.Controls)
+        //        if(item is TextBox)
+        //        {
+        //            TextBox txt = (TextBox)item;
+        //            txt.Text = null;
+        //        }
+        //}
     }
 }
