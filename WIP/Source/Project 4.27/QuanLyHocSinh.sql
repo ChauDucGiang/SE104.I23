@@ -1,4 +1,7 @@
-﻿------------------------------------------------------------------------------------------
+﻿CREATE DATABASE QL 
+
+------------------------------------------------------------------------------------------
+USE Ql
 CREATE TABLE Account
 (
 	UserName NVARCHAR(100) PRIMARY KEY,
@@ -146,7 +149,7 @@ GO
 -----------------------------------------------------------------------------
 CREATE TABLE KQ_TongHop
 (
-	MaHS INT,
+	MaHS NVARCHAR(50),
 	MaLop INT,
 	NamHoc NVARCHAR(50),
 	MaHocLuc VARCHAR(10),
