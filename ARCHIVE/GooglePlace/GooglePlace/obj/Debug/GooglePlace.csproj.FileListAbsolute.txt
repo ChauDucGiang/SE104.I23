@@ -1,0 +1,9 @@
+E:\Visual Studio 2015\Projects\GooglePlace\GooglePlace\bin\Debug\GooglePlace.exe.config
+E:\Visual Studio 2015\Projects\GooglePlace\GooglePlace\bin\Debug\GooglePlace.exe
+E:\Visual Studio 2015\Projects\GooglePlace\GooglePlace\bin\Debug\GooglePlace.pdb
+E:\Visual Studio 2015\Projects\GooglePlace\GooglePlace\obj\Debug\GooglePlace.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2015\Projects\GooglePlace\GooglePlace\obj\Debug\GooglePlace.Form1.resources
+E:\Visual Studio 2015\Projects\GooglePlace\GooglePlace\obj\Debug\GooglePlace.Properties.Resources.resources
+E:\Visual Studio 2015\Projects\GooglePlace\GooglePlace\obj\Debug\GooglePlace.csproj.GenerateResource.Cache
+E:\Visual Studio 2015\Projects\GooglePlace\GooglePlace\obj\Debug\GooglePlace.exe
+E:\Visual Studio 2015\Projects\GooglePlace\GooglePlace\obj\Debug\GooglePlace.pdb
