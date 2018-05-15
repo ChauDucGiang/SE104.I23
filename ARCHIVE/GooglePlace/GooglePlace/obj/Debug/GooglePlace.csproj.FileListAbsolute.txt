@@ -7,3 +7,13 @@ E:\Visual Studio 2015\Projects\GooglePlace\GooglePlace\obj\Debug\GooglePlace.Pro
 E:\Visual Studio 2015\Projects\GooglePlace\GooglePlace\obj\Debug\GooglePlace.csproj.GenerateResource.Cache
 E:\Visual Studio 2015\Projects\GooglePlace\GooglePlace\obj\Debug\GooglePlace.exe
 E:\Visual Studio 2015\Projects\GooglePlace\GooglePlace\obj\Debug\GooglePlace.pdb
+C:\Users\PC\Documents\GitHub\SE104.I23\ARCHIVE\GooglePlace\GooglePlace\bin\Debug\GooglePlace.exe.config
+C:\Users\PC\Documents\GitHub\SE104.I23\ARCHIVE\GooglePlace\GooglePlace\bin\Debug\GooglePlace.exe
+C:\Users\PC\Documents\GitHub\SE104.I23\ARCHIVE\GooglePlace\GooglePlace\bin\Debug\GooglePlace.pdb
+C:\Users\PC\Documents\GitHub\SE104.I23\ARCHIVE\GooglePlace\GooglePlace\obj\Debug\GooglePlace.csprojResolveAssemblyReference.cache
+C:\Users\PC\Documents\GitHub\SE104.I23\ARCHIVE\GooglePlace\GooglePlace\obj\Debug\GooglePlace.Form1.resources
+C:\Users\PC\Documents\GitHub\SE104.I23\ARCHIVE\GooglePlace\GooglePlace\obj\Debug\GooglePlace.Properties.Resources.resources
+C:\Users\PC\Documents\GitHub\SE104.I23\ARCHIVE\GooglePlace\GooglePlace\obj\Debug\GooglePlace.csproj.GenerateResource.cache
+C:\Users\PC\Documents\GitHub\SE104.I23\ARCHIVE\GooglePlace\GooglePlace\obj\Debug\GooglePlace.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\GitHub\SE104.I23\ARCHIVE\GooglePlace\GooglePlace\obj\Debug\GooglePlace.exe
+C:\Users\PC\Documents\GitHub\SE104.I23\ARCHIVE\GooglePlace\GooglePlace\obj\Debug\GooglePlace.pdb
