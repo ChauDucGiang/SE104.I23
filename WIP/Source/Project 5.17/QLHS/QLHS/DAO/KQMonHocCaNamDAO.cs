@@ -18,6 +18,7 @@ namespace QLHS.DAO
             float diemTB = (float)Math.Round(DiemDAO.Instance.DiemTBMonCaNam(mahs, malop, namhoc, mamon),2);
             string query = "INSERT INTO dbo.KQ_CaNam_MonHoc( MaHS, MaLop, NamHoc, MaMH,DTBMonCaNam )"
                             + "VALUES  ( '"+mahs+"',N'"+malop+"',N'"+namhoc+"','"+mamon+"',"+diemTB+")";
+            XoaKetQua(mahs, malop, mamon, namhoc);
             int re = DataProvider.Instance.ExecuteNonQuery(query);
             return re > 0;
         }

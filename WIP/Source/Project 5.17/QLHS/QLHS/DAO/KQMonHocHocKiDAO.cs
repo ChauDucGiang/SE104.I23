@@ -18,12 +18,13 @@ namespace QLHS.DAO
             float diemTB = (float)Math.Round(DiemDAO.Instance.DiemTBMonHocKi(mahs, malop, namhoc, mahocki, mamon),2);
             string query = "INSERT INTO dbo.KetQua_HocKi_MonHoc(MaHS,MaLop,MaMH,MaNamHoc,DTBMonHocKi,HocKi)"
                             +"VALUES('"+mahs+"', N'"+malop+"', '"+mamon+"', N'"+namhoc+"', "+diemTB+","+mahocki+")";
+            XoaKetQua(mahs, malop, namhoc, mamon);
             int re = DataProvider.Instance.ExecuteNonQuery(query);
             return re > 0;
         }
-        public bool XoaKetQua(string mahs,string malop,int mahocki,string namhoc,string mamon)
+        public bool XoaKetQua(string mahs,string malop,string namhoc,string mamon)
         {
-            string query = "DELETE dbo.KetQua_HocKi_MonHoc WHERE MaHS='" + mahs + "' AND MaLop=N'" + malop + "' AND MaNamHoc=N'" + namhoc + "' AND HocKi = " + mahocki + " AND MaMH = '" + mamon + "'";
+            string query = "DELETE dbo.KetQua_HocKi_MonHoc WHERE MaHS='" + mahs + "' AND MaLop=N'" + malop + "' AND MaNamHoc=N'" + namhoc + "' AND MaMH = '" + mamon + "'";
             int re = DataProvider.Instance.ExecuteNonQuery(query);
             return re > 0;
         }

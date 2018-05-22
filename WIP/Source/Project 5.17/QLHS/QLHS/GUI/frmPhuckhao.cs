@@ -12,9 +12,16 @@ namespace QLHS.GUI
 {
     public partial class frmPhuckhao : Form
     {
+        #region Constructor
+        BindingSource bs = new BindingSource();
+        #endregion
         public frmPhuckhao()
         {
             InitializeComponent();
         }
+        #region Func
+        #endregion
+        #region Event
+        #endregion
     }
 }

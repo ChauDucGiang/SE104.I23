@@ -165,7 +165,7 @@ namespace QLHS
         }
         private void btnLienhe_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            MessageBox.Show("0989751783. Xin Liên hệ số điện thoại này. Chân thành cảm ơn", "Thông báo");
+            MessageBox.Show("0989751xxx. Xin Liên hệ số điện thoại này. Chân thành cảm ơn", "Thông báo");
         }
         private void btnHocSinh_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
@@ -215,6 +215,13 @@ namespace QLHS
             f.MdiParent = this;
             f.Show();
 
+        }
+        private void btnPhuckhao_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            frmPhuckhao f = new frmPhuckhao();
+            if (ExistForm(f)) return;
+            f.MdiParent = this;
+            f.Show();
         }
         #endregion
 

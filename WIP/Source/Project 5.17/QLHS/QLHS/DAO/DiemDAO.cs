@@ -89,7 +89,7 @@ namespace QLHS.DAO
         {
             string query = "SELECT * FROM dbo.BangDiem bd,CTBD c,CotDiem cd "+
                             "WHERE bd.ID = c.IDBangDiem "+
-                            "WHERE cd.MaCotDiem = bd.MaCotDiem "+
+                            "AND cd.MaCotDiem = bd.MaCotDiem "+
                             "AND bd.MaHS = '"+mahs+"' "+
                             "AND bd.NamHoc = '"+namhoc+"' "+
                             "AND bd.MaLop = '"+malop+"' "+
@@ -151,8 +151,8 @@ namespace QLHS.DAO
             foreach (DataRow r in data.Rows)
             {
                 diemTBTungMon = DiemTBMonHocKi(mahs,malop,namhoc,hocki,r["MaMH"].ToString());
-                tongDiemCacMon += diemTBTungMon * Convert.ToInt32(r["HeSo"].ToString());
-                tongHeSoCacMon += Convert.ToInt32(r["HeSo"].ToString());
+                tongDiemCacMon += diemTBTungMon * Convert.ToInt32(r["HeSoMon"].ToString());
+                tongHeSoCacMon += Convert.ToInt32(r["HeSoMon"].ToString());
             }
             if (tongHeSoCacMon > 0) return tongDiemCacMon / tongHeSoCacMon;
             return 0;
@@ -168,11 +168,12 @@ namespace QLHS.DAO
             foreach (DataRow r in data.Rows)
             {
                 diemTBTungMon = DiemTBMonCaNam(mahs, malop, namhoc, r["MaMH"].ToString());
-                tongDiemCacMon += diemTBTungMon * Convert.ToInt32(r["HeSo"].ToString());
-                tongHeSoCacMon += Convert.ToInt32(r["HeSo"].ToString());
+                tongDiemCacMon += diemTBTungMon * Convert.ToInt32(r["HeSoMon"].ToString());
+                tongHeSoCacMon += Convert.ToInt32(r["HeSoMon"].ToString());
             }
             if (tongHeSoCacMon > 0) return tongDiemCacMon / tongHeSoCacMon;
             return 0;
         }
+
     }
 }

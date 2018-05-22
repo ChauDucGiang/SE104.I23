@@ -19,6 +19,7 @@ namespace QLHS.DAO
             string mahocluc = HocLucDAO.Instance.XepLoaiHocLucHocKy(mahs, malop, namhoc, mahocki);
             string query = "INSERT INTO dbo.KQ_HocKi_TongHop( MaHS,MaLop,MaHocKi,NamHoc,MaHocLuc,MaHK,DiemTBHocKi)" +
                            " VALUES  ( '"+mahs+"',N'"+malop+"',"+mahocki+",N'"+namhoc+"','"+mahocluc+"','"+mahanhkiem+"',"+diemTB+")";
+            XoaKetQua(mahs, malop, mahocki, namhoc);
             int re = DataProvider.Instance.ExecuteNonQuery(query);
             return re > 0;
         }

@@ -235,8 +235,8 @@ namespace QLHS
 
         private void cmbMonHoc1_SelectedIndexChanged(object sender, EventArgs e)
         {
-        //    if (cmbLop1.SelectedValue != null && cmbMonHoc1.SelectedValue != null && cmbNamhoc1.SelectedValue != null)
-        //        bd.DataSource = DiemDAO.Instance.LoadSTInClassByMaLopAndNamHoc(cmbLop1.SelectedValue.ToString(), cmbNamhoc1.SelectedValue.ToString());
+            if (cmbLop1.SelectedValue != null && cmbMonHoc1.SelectedValue != null && cmbNamhoc1.SelectedValue != null)
+                bd.DataSource = HocSinhDAO.Instance.GetHocSinhByMaLopAndNamHoc(cmbLop1.SelectedValue.ToString(), cmbNamhoc1.SelectedValue.ToString());
         }
         private void btnHiemthidanhsach1_Click(object sender, EventArgs e)
         {

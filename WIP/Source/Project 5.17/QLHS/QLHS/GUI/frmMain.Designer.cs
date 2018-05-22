@@ -685,6 +685,7 @@
             this.btnPhuckhao.Name = "btnPhuckhao";
             this.btnPhuckhao.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
             | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
+            this.btnPhuckhao.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnPhuckhao_ItemClick);
             // 
             // ribbonPage1
             // 

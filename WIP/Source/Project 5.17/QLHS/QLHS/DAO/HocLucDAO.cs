@@ -65,7 +65,7 @@ namespace QLHS.DAO
                 diemCanDuoi[index] = float.Parse(r["DiemToiThieu"].ToString());
                 index++;
             }
-            for (int i = 0; i <= index - 1; i++)
+            for (int i = 0; i < index - 1; i++)
             {
                 if (Tongdiem >= diemCanDuoi[i] && diemTBmonMIN >= diemCanDuoi[i + 1])
                 {
@@ -97,8 +97,8 @@ namespace QLHS.DAO
                 diemTBTungMon = DiemDAO.Instance.DiemTBMonHocKi(mahs, malop, namhoc, mahocki, r["MaMH"].ToString());
                 arrBangDiemTungMon[countMonhoc++] = diemTBTungMon;
 
-                tongDiemCacMon += diemTBTungMon * Convert.ToInt32(r["HeSo"].ToString());
-                tongHeSoCacMon += Convert.ToInt32(r["HeSo"].ToString());
+                tongDiemCacMon += diemTBTungMon * Convert.ToInt32(r["HeSoMon"].ToString());
+                tongHeSoCacMon += Convert.ToInt32(r["HeSoMon"].ToString());
             }
 
             if (tongHeSoCacMon > 0) tongDiem = tongDiemCacMon / tongHeSoCacMon;
@@ -124,8 +124,8 @@ namespace QLHS.DAO
                 diemTBTungMon = DiemDAO.Instance.DiemTBMonCaNam(mahs, malop, namhoc,r["MaMH"].ToString());
                 arrBangDiemTungMon[countMonhoc++] = diemTBTungMon;
 
-                tongDiemCacMon += diemTBTungMon * Convert.ToInt32(r["HeSo"].ToString());
-                tongHeSoCacMon += Convert.ToInt32(r["HeSo"].ToString());
+                tongDiemCacMon += diemTBTungMon * Convert.ToInt32(r["HeSoMon"].ToString());
+                tongHeSoCacMon += Convert.ToInt32(r["HeSoMon"].ToString());
             }
 
             if (tongHeSoCacMon > 0) tongDiem = tongDiemCacMon / tongHeSoCacMon;
