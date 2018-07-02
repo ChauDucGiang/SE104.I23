@@ -5,10 +5,6 @@ VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLHS", "QLHS\QLHS.csproj", "{9FDFE0AB-E90D-4C8A-BC7E-2314A95C818A}"
 EndProject
-Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "QuanLyHocSinh", "QuanLyHocSinh\QuanLyHocSinh.aiproj", "{AAB1316E-0B73-43E2-9A20-9C43ACE784DC}"
-EndProject
-Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "Student Management", "Student Management\Student Management.aiproj", "{B2DE4EB4-2027-45B6-97DA-120B0BA74666}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		All|Any CPU = All|Any CPU
@@ -22,18 +18,6 @@ Global
 		{9FDFE0AB-E90D-4C8A-BC7E-2314A95C818A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FDFE0AB-E90D-4C8A-BC7E-2314A95C818A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FDFE0AB-E90D-4C8A-BC7E-2314A95C818A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AAB1316E-0B73-43E2-9A20-9C43ACE784DC}.All|Any CPU.ActiveCfg = DefaultBuild
-		{AAB1316E-0B73-43E2-9A20-9C43ACE784DC}.All|Any CPU.Build.0 = DefaultBuild
-		{AAB1316E-0B73-43E2-9A20-9C43ACE784DC}.Debug|Any CPU.ActiveCfg = DefaultBuild
-		{AAB1316E-0B73-43E2-9A20-9C43ACE784DC}.Debug|Any CPU.Build.0 = DefaultBuild
-		{AAB1316E-0B73-43E2-9A20-9C43ACE784DC}.Release|Any CPU.ActiveCfg = DefaultBuild
-		{AAB1316E-0B73-43E2-9A20-9C43ACE784DC}.Release|Any CPU.Build.0 = DefaultBuild
-		{B2DE4EB4-2027-45B6-97DA-120B0BA74666}.All|Any CPU.ActiveCfg = DefaultBuild
-		{B2DE4EB4-2027-45B6-97DA-120B0BA74666}.All|Any CPU.Build.0 = DefaultBuild
-		{B2DE4EB4-2027-45B6-97DA-120B0BA74666}.Debug|Any CPU.ActiveCfg = DefaultBuild
-		{B2DE4EB4-2027-45B6-97DA-120B0BA74666}.Debug|Any CPU.Build.0 = DefaultBuild
-		{B2DE4EB4-2027-45B6-97DA-120B0BA74666}.Release|Any CPU.ActiveCfg = DefaultBuild
-		{B2DE4EB4-2027-45B6-97DA-120B0BA74666}.Release|Any CPU.Build.0 = DefaultBuild
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
